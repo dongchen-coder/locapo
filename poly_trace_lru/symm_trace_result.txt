@@ -1,0 +1,5 @@
+Starting to print results.
+/* Total number of data blocks is 0 */
+# HISTOGRAM TOTAL COUNT 0
+# NUMBER OF BINS: 1
+BIN:     0   VAL:            0   COUNT: 0
