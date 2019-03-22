@@ -1,13 +1,13 @@
 Starting to print results.
-/* Total number of data blocks is 8192 */
+/* Total number of data blocks is 131072 */
 # HISTOGRAM TOTAL COUNT 0
 # NUMBER OF BINS: 3328
-BIN:     0   VAL:            0   COUNT: 62239800
-BIN:     1   VAL:            1   COUNT: 20593300
-BIN:     2   VAL:            2   COUNT: 20797700
-BIN:     3   VAL:            3   COUNT: 10506160
-BIN:     4   VAL:            4   COUNT: 10587920
-BIN:     5   VAL:            5   COUNT: 357700
+BIN:     0   VAL:            0   COUNT: 54881400
+BIN:     1   VAL:            1   COUNT: 15687700
+BIN:     2   VAL:            2   COUNT: 19571300
+BIN:     3   VAL:            3   COUNT: 11732560
+BIN:     4   VAL:            4   COUNT: 13040720
+BIN:     5   VAL:            5   COUNT: 6489700
 BIN:     6   VAL:            6   COUNT: 0
 BIN:     7   VAL:            7   COUNT: 52173100
 BIN:     8   VAL:            8   COUNT: 0
@@ -23,8 +23,8 @@ BIN:    17   VAL:           17   COUNT: 0
 BIN:    18   VAL:           18   COUNT: 0
 BIN:    19   VAL:           19   COUNT: 0
 BIN:    20   VAL:           20   COUNT: 0
-BIN:    21   VAL:           21   COUNT: 10210
-BIN:    22   VAL:           22   COUNT: 153150
+BIN:    21   VAL:           21   COUNT: 0
+BIN:    22   VAL:           22   COUNT: 0
 BIN:    23   VAL:           23   COUNT: 0
 BIN:    24   VAL:           24   COUNT: 0
 BIN:    25   VAL:           25   COUNT: 0
@@ -383,8 +383,8 @@ BIN:   377   VAL:          377   COUNT: 0
 BIN:   378   VAL:          378   COUNT: 0
 BIN:   379   VAL:          379   COUNT: 0
 BIN:   380   VAL:          380   COUNT: 0
-BIN:   381   VAL:          381   COUNT: 0
-BIN:   382   VAL:          382   COUNT: 0
+BIN:   381   VAL:          381   COUNT: 10210
+BIN:   382   VAL:          382   COUNT: 2603550
 BIN:   383   VAL:          383   COUNT: 0
 BIN:   384   VAL:          384   COUNT: 0
 BIN:   385   VAL:          385   COUNT: 0
@@ -1537,7 +1537,7 @@ BIN:  1531   VAL:         8112   COUNT: 0
 BIN:  1532   VAL:         8128   COUNT: 0
 BIN:  1533   VAL:         8144   COUNT: 0
 BIN:  1534   VAL:         8160   COUNT: 0
-BIN:  1535   VAL:         8176   COUNT: 73728
+BIN:  1535   VAL:         8176   COUNT: 0
 BIN:  1536   VAL:         8192   COUNT: 0
 BIN:  1537   VAL:         8224   COUNT: 0
 BIN:  1538   VAL:         8256   COUNT: 0
@@ -2560,8 +2560,8 @@ BIN:  2554   VAL:       129536   COUNT: 0
 BIN:  2555   VAL:       129792   COUNT: 0
 BIN:  2556   VAL:       130048   COUNT: 0
 BIN:  2557   VAL:       130304   COUNT: 0
-BIN:  2558   VAL:       130560   COUNT: 0
-BIN:  2559   VAL:       130816   COUNT: 0
+BIN:  2558   VAL:       130560   COUNT: 131
+BIN:  2559   VAL:       130816   COUNT: 1179517
 BIN:  2560   VAL:       131072   COUNT: 0
 BIN:  2561   VAL:       131584   COUNT: 0
 BIN:  2562   VAL:       132096   COUNT: 0

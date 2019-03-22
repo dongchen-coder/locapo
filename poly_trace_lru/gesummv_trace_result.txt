@@ -1,13 +1,13 @@
 Starting to print results.
-/* Total number of data blocks is 16408 */
+/* Total number of data blocks is 262528 */
 # HISTOGRAM TOTAL COUNT 0
 # NUMBER OF BINS: 1153
 BIN:     0   VAL:            0   COUNT: 4196352
-BIN:     1   VAL:            1   COUNT: 4080
-BIN:     2   VAL:            2   COUNT: 3137536
+BIN:     1   VAL:            1   COUNT: 3840
+BIN:     2   VAL:            2   COUNT: 3014656
 BIN:     3   VAL:            3   COUNT: 4096
-BIN:     4   VAL:            4   COUNT: 5218304
-BIN:     5   VAL:            5   COUNT: 1054720
+BIN:     4   VAL:            4   COUNT: 4849664
+BIN:     5   VAL:            5   COUNT: 1177600
 BIN:     6   VAL:            6   COUNT: 0
 BIN:     7   VAL:            7   COUNT: 0
 BIN:     8   VAL:            8   COUNT: 0
@@ -26,9 +26,9 @@ BIN:    20   VAL:           20   COUNT: 0
 BIN:    21   VAL:           21   COUNT: 0
 BIN:    22   VAL:           22   COUNT: 0
 BIN:    23   VAL:           23   COUNT: 0
-BIN:    24   VAL:           24   COUNT: 8128
+BIN:    24   VAL:           24   COUNT: 0
 BIN:    25   VAL:           25   COUNT: 0
-BIN:    26   VAL:           26   COUNT: 56
+BIN:    26   VAL:           26   COUNT: 0
 BIN:    27   VAL:           27   COUNT: 0
 BIN:    28   VAL:           28   COUNT: 0
 BIN:    29   VAL:           29   COUNT: 0
@@ -386,9 +386,9 @@ BIN:   380   VAL:          380   COUNT: 0
 BIN:   381   VAL:          381   COUNT: 0
 BIN:   382   VAL:          382   COUNT: 0
 BIN:   383   VAL:          383   COUNT: 0
-BIN:   384   VAL:          384   COUNT: 0
+BIN:   384   VAL:          384   COUNT: 114688
 BIN:   385   VAL:          385   COUNT: 0
-BIN:   386   VAL:          386   COUNT: 0
+BIN:   386   VAL:          386   COUNT: 16256
 BIN:   387   VAL:          387   COUNT: 0
 BIN:   388   VAL:          388   COUNT: 0
 BIN:   389   VAL:          389   COUNT: 0
