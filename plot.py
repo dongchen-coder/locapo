@@ -67,12 +67,13 @@ for f in files:
 		content.close()
 
 	# Ploting the plots
-	plt.plot(cacheSizes, missRatios, 'b')
-	plt.plot(cacheSizes_rll, missRatios_rll, 'r')
+	plt.plot(cacheSizes, missRatios, 'b', label = "LRU")
+	plt.plot(cacheSizes_rll, missRatios_rll, 'r', label = "RLL")
 	plt.title(f.split('_')[0])
 	plt.xlabel('Cache Sizes (KB)')
 	plt.ylabel('Miss Ratios')
 	plt.xscale('symlog')
+	plt.legend()
 	plt.savefig(figPath + f.split('_')[0] + '.pdf')
 	plt.clf()
 
