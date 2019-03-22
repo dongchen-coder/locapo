@@ -11,7 +11,7 @@ rll_path = "./poly_trace_rll/"
 figPath = "./plots/"
 
 for f in files:
-	
+
 	# Reading and processing LRU results 
 	content = open(lru_path + f, "r")
 
@@ -39,7 +39,9 @@ for f in files:
 
 	cacheSizes.append(0)
 	missRatios.append(1)
-	misses = totalCnt + coldMiss
+
+	totalCnt += coldMiss
+	misses = totalCnt
 	
 	content = open(lru_mrc_path + f.replace("_trace_result", "_miss_ratio_curve"),"w")
 	content.write("0 1\n")
@@ -58,7 +60,7 @@ for f in files:
 		for line in content:
 			if ("Total costs (block)" in line):
 				lineList = line.split()
-				cacheSizes_rll.append(float(lineList[4]))
+				cacheSizes_rll.append(float(lineList[4]) * 64 / 1024)
 			if ("Miss ratio" in line):
 				lineList = line.split()
 				missRatios_rll.append(float(lineList[2]))
