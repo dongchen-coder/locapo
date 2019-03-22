@@ -6,15 +6,13 @@ files = os.listdir(lru_path)
 
 lru_mrc_path = "./poly_trace_lru_mrc/"
 
-rll_path = "./poly_trae_rll/"
+rll_path = "./poly_trace_rll/"
 
 figPath = "./plots/"
 
 for f in files:
 	
-	#if ('mvt' not in f):
-	#	continue
-
+	# Reading and processing LRU results 
 	content = open(lru_path + f, "r")
 
 	rdHist = {}
@@ -35,8 +33,6 @@ for f in files:
 			coldMiss = int(lineList[7])
 
 	content.close()
-	#print rdHist
-	#print totalCnt
 
 	cacheSizes = []
 	missRatios = []
@@ -53,10 +49,24 @@ for f in files:
 		missRatios.append(float(misses)/totalCnt)
 		content.write(str(float((key + 1) * 64) / 1024) + " " + str(float(misses)/totalCnt) + "\n")
 	content.close()
-	#print cacheSizes
-	#print missRatios
 
-	plt.plot(cacheSizes, missRatios)
+	# Reading and processing RLL resutls
+	cacheSizes_rll = []
+	missRatios_rll = []
+	if (os.path.exists(rll_path + f.split('_')[0] + "_ref_arr.cpp.o.tr.txt")):
+		content = open(rll_path + f.split('_')[0] + "_ref_arr.cpp.o.tr.txt")
+		for line in content:
+			if ("Total costs (block)" in line):
+				lineList = line.split()
+				cacheSizes_rll.append(float(lineList[4]))
+			if ("Miss ratio" in line):
+				lineList = line.split()
+				missRatios_rll.append(float(lineList[2]))
+		content.close()
+
+	# Ploting the plots
+	plt.plot(cacheSizes, missRatios, 'b')
+	plt.plot(cacheSizes_rll, missRatios_rll, 'r')
 	plt.title(f.split('_')[0])
 	plt.xlabel('Cache Sizes (KB)')
 	plt.ylabel('Miss Ratios')
