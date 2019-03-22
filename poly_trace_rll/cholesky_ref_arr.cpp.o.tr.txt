@@ -1,0 +1,2031 @@
+Starting running of Reference Level Lease.
+Started collecting reuse times for reuse time histogram.
+Finished getting reference level histogram.
+
+Reference id is 2
+Lease assigned is 1
+ppuc is 1
+cost is 178433024
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 178433024
+Total costs (block) : 0.2487216
+Miss ratio 0.7512783931748613
+
+
+Reference id is 9
+Lease assigned is 1
+ppuc is 1
+cost is 523776
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 178956800
+Total costs (block) : 0.24945171
+Miss ratio 0.7505482906107954
+
+
+Reference id is 7
+Lease assigned is 1
+ppuc is 1
+cost is 523776
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 179480576
+Total costs (block) : 0.25018182
+Miss ratio 0.7498181880467294
+
+
+Reference id is 5
+Lease assigned is 1
+ppuc is 1
+cost is 523776
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 180004352
+Total costs (block) : 0.25091192
+Miss ratio 0.7490880854826635
+
+
+Reference id is 11
+Lease assigned is 1
+ppuc is 1
+cost is 1024
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 180005376
+Total costs (block) : 0.25091335
+Miss ratio 0.7490866581071716
+
+
+Reference id is 3
+Lease assigned is 3
+ppuc is 0.335946710186558
+cost is 531134905
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 711140281
+Total costs (block) : 0.99127364
+Miss ratio 0.500365051282033
+
+
+Reference id is 10
+Lease assigned is 3
+ppuc is 0.33529646738295454
+cost is 1562128
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 712702409
+Total costs (block) : 0.9934511
+Miss ratio 0.499634948717967
+
+
+Reference id is 6
+Lease assigned is 3
+ppuc is 0.2956676973098669
+cost is 1555016
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 714257425
+Total costs (block) : 0.99561864
+Miss ratio 0.4989940682735108
+
+
+Reference id is 8
+Lease assigned is 3
+ppuc is 0.2933611463000846
+cost is 1563779
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 715821204
+Total costs (block) : 0.99779844
+Miss ratio 0.49835460405317544
+
+
+Reference id is 0
+Lease assigned is 4
+ppuc is 0.22019795683511337
+cost is 710076416
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 1425897620
+Total costs (block) : 1.9875891
+Miss ratio 0.28040471492456676
+
+
+Reference id is 1
+Lease assigned is 4
+ppuc is 0.21929055112881468
+cost is 713014652
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 2138912272
+Total costs (block) : 2.9814756
+Miss ratio 0.06245482579595807
+
+
+Reference id is 12
+Lease assigned is 1
+ppuc is 0.0009775171065493646
+cost is 1023
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 2138913295
+Total costs (block) : 2.981477
+Miss ratio 0.06245482440203676
+
+
+Reference id is 6
+Lease assigned is 4033
+ppuc is 0.0007334963325183374
+cost is 87264240
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 2226177535
+Total costs (block) : 3.1031165
+Miss ratio 0.062365602282426935
+
+
+Reference id is 0
+Lease assigned is 4059
+ppuc is 0.0004943038691606268
+cost is 44660075264
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46886252799
+Total costs (block) : 65.35575
+Miss ratio 0.03159388458589696
+
+
+Reference id is 12
+Lease assigned is 5
+ppuc is 0.0002446183953033268
+cost is 4088
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46886256887
+Total costs (block) : 65.35576
+Miss ratio 0.031593883191975536
+
+
+Reference id is 12
+Lease assigned is 12
+ppuc is 0.00013991884706870015
+cost is 7147
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46886264034
+Total costs (block) : 65.35577
+Miss ratio 0.031593881798054224
+
+
+Reference id is 12
+Lease assigned is 23
+ppuc is 0.000089126559714795
+cost is 11220
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46886275254
+Total costs (block) : 65.35578
+Miss ratio 0.0315938804041328
+
+
+Reference id is 12
+Lease assigned is 38
+ppuc is 0.00006542361792607131
+cost is 15285
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46886290539
+Total costs (block) : 65.355804
+Miss ratio 0.03159387901021149
+
+
+Reference id is 12
+Lease assigned is 57
+ppuc is 0.000051700961637886464
+cost is 19342
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46886309881
+Total costs (block) : 65.35583
+Miss ratio 0.03159387761629007
+
+
+Reference id is 12
+Lease assigned is 80
+ppuc is 0.00004275148561412509
+cost is 23391
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46886333272
+Total costs (block) : 65.355865
+Miss ratio 0.031593876222368644
+
+
+Reference id is 12
+Lease assigned is 107
+ppuc is 0.00003645377661125693
+cost is 27432
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46886360704
+Total costs (block) : 65.355896
+Miss ratio 0.03159387482844733
+
+
+Reference id is 12
+Lease assigned is 287
+ppuc is 0.000021922973632143463
+cost is 182457
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46886543161
+Total costs (block) : 65.356155
+Miss ratio 0.03159386925276175
+
+
+Reference id is 12
+Lease assigned is 334
+ppuc is 0.000021045099648546836
+cost is 47517
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46886590678
+Total costs (block) : 65.356224
+Miss ratio 0.03159386785884044
+
+
+Reference id is 12
+Lease assigned is 385
+ppuc is 0.000019413706076490002
+cost is 51510
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46886642188
+Total costs (block) : 65.35629
+Miss ratio 0.03159386646491902
+
+
+Reference id is 12
+Lease assigned is 440
+ppuc is 0.00001801964140913596
+cost is 55495
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46886697683
+Total costs (block) : 65.35637
+Miss ratio 0.031593865070997706
+
+
+Reference id is 12
+Lease assigned is 499
+ppuc is 0.000016814635458703255
+cost is 59472
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46886757155
+Total costs (block) : 65.35645
+Miss ratio 0.031593863677076284
+
+
+Reference id is 12
+Lease assigned is 807
+ppuc is 0.000012914849170705248
+cost is 309721
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46887066876
+Total costs (block) : 65.35689
+Miss ratio 0.031593858101390815
+
+
+Reference id is 12
+Lease assigned is 886
+ppuc is 0.000012620366747857692
+cost is 79237
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46887146113
+Total costs (block) : 65.356995
+Miss ratio 0.03159385670746939
+
+
+Reference id is 12
+Lease assigned is 969
+ppuc is 0.000012024144482120097
+cost is 83166
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46887229279
+Total costs (block) : 65.35711
+Miss ratio 0.03159385531354797
+
+
+Reference id is 12
+Lease assigned is 1056
+ppuc is 0.00001148277010345976
+cost is 87087
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46887316366
+Total costs (block) : 65.35723
+Miss ratio 0.03159385391962666
+
+
+Reference id is 12
+Lease assigned is 1147
+ppuc is 0.000010989010989010989
+cost is 91000
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46887407366
+Total costs (block) : 65.35736
+Miss ratio 0.031593852525705235
+
+
+Reference id is 12
+Lease assigned is 1583
+ppuc is 0.000009196734239671492
+cost is 434937
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46887842303
+Total costs (block) : 65.35796
+Miss ratio 0.031593846950019766
+
+
+Reference id is 12
+Lease assigned is 1694
+ppuc is 0.000009054280411064331
+cost is 110445
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46887952748
+Total costs (block) : 65.358116
+Miss ratio 0.03159384555609834
+
+
+Reference id is 12
+Lease assigned is 1809
+ppuc is 0.000008748141020033243
+cost is 114310
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46888067058
+Total costs (block) : 65.35828
+Miss ratio 0.03159384416217692
+
+
+Reference id is 12
+Lease assigned is 1928
+ppuc is 0.000008462599541327105
+cost is 118167
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46888185225
+Total costs (block) : 65.358444
+Miss ratio 0.03159384276825561
+
+
+Reference id is 12
+Lease assigned is 2051
+ppuc is 0.000008195646472593758
+cost is 122016
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46888307241
+Total costs (block) : 65.35862
+Miss ratio 0.031593841374334186
+
+
+Reference id is 12
+Lease assigned is 2615
+ppuc is 0.00000716711013160606
+cost is 558105
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46888865346
+Total costs (block) : 65.35939
+Miss ratio 0.03159383579864872
+
+
+Reference id is 12
+Lease assigned is 2758
+ppuc is 0.000007085113468092191
+cost is 141141
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46889006487
+Total costs (block) : 65.35959
+Miss ratio 0.031593834404727295
+
+
+Reference id is 12
+Lease assigned is 2905
+ppuc is 0.000006899311448717418
+cost is 144942
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46889151429
+Total costs (block) : 65.359795
+Miss ratio 0.03159383301080598
+
+
+Reference id is 12
+Lease assigned is 3056
+ppuc is 0.000006723367062224762
+cost is 148735
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46889300164
+Total costs (block) : 65.36
+Miss ratio 0.03159383161688456
+
+
+Reference id is 12
+Lease assigned is 3211
+ppuc is 0.0000065565171780750066
+cost is 152520
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46889452684
+Total costs (block) : 65.36021
+Miss ratio 0.03159383022296314
+
+
+Reference id is 12
+Lease assigned is 3903
+ppuc is 0.0000058890647429055175
+cost is 679225
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46890131909
+Total costs (block) : 65.36116
+Miss ratio 0.03159382464727767
+
+
+Reference id is 12
+Lease assigned is 4078
+ppuc is 0.000005836859769444039
+cost is 171325
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46890303234
+Total costs (block) : 65.3614
+Miss ratio 0.031593823253356246
+
+
+Reference id is 12
+Lease assigned is 4257
+ppuc is 0.000005712261941483588
+cost is 175062
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46890478296
+Total costs (block) : 65.36164
+Miss ratio 0.031593821859434934
+
+
+Reference id is 12
+Lease assigned is 4440
+ppuc is 0.000005593122696332589
+cost is 178791
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46890657087
+Total costs (block) : 65.361885
+Miss ratio 0.03159382046551351
+
+
+Reference id is 12
+Lease assigned is 4627
+ppuc is 0.000005479091785745595
+cost is 182512
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46890839599
+Total costs (block) : 65.362144
+Miss ratio 0.0315938190715922
+
+
+Reference id is 12
+Lease assigned is 5447
+ppuc is 0.0000050106664562186756
+cost is 798297
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46891637896
+Total costs (block) : 65.36326
+Miss ratio 0.03159381349590662
+
+
+Reference id is 12
+Lease assigned is 5654
+ppuc is 0.000004975198634805495
+cost is 200997
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46891838893
+Total costs (block) : 65.36354
+Miss ratio 0.03159381210198531
+
+
+Reference id is 12
+Lease assigned is 5865
+ppuc is 0.000004885913910196902
+cost is 204670
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46892043563
+Total costs (block) : 65.36382
+Miss ratio 0.031593810708063885
+
+
+Reference id is 12
+Lease assigned is 6080
+ppuc is 0.000004799961600307198
+cost is 208335
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46892251898
+Total costs (block) : 65.36411
+Miss ratio 0.03159380931414246
+
+
+Reference id is 12
+Lease assigned is 6299
+ppuc is 0.0000047171591380806826
+cost is 211992
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46892463890
+Total costs (block) : 65.3644
+Miss ratio 0.03159380792022115
+
+
+Reference id is 12
+Lease assigned is 7247
+ppuc is 0.00000437005159938426
+cost is 915321
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46893379211
+Total costs (block) : 65.365685
+Miss ratio 0.03159380234453557
+
+
+Reference id is 12
+Lease assigned is 7486
+ppuc is 0.000004344860247570137
+cost is 230157
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46893609368
+Total costs (block) : 65.366005
+Miss ratio 0.03159380095061426
+
+
+Reference id is 12
+Lease assigned is 7729
+ppuc is 0.0000042777820555598335
+cost is 233766
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46893843134
+Total costs (block) : 65.36633
+Miss ratio 0.031593799556692836
+
+
+Reference id is 12
+Lease assigned is 7976
+ppuc is 0.000004212885531687218
+cost is 237367
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46894080501
+Total costs (block) : 65.36666
+Miss ratio 0.031593798162771525
+
+
+Reference id is 12
+Lease assigned is 8227
+ppuc is 0.000004150066401062417
+cost is 240960
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46894321461
+Total costs (block) : 65.367
+Miss ratio 0.0315937967688501
+
+
+Reference id is 12
+Lease assigned is 9303
+ppuc is 0.00000388237566449286
+cost is 1030297
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46895351758
+Total costs (block) : 65.36843
+Miss ratio 0.03159379119316463
+
+
+Reference id is 12
+Lease assigned is 9574
+ppuc is 0.000003863912984679585
+cost is 258805
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46895610563
+Total costs (block) : 65.3688
+Miss ratio 0.03159378979924321
+
+
+Reference id is 12
+Lease assigned is 9849
+ppuc is 0.000003811701924909472
+cost is 262350
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46895872913
+Total costs (block) : 65.36916
+Miss ratio 0.03159378840532179
+
+
+Reference id is 12
+Lease assigned is 10128
+ppuc is 0.000003760996212676814
+cost is 265887
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46896138800
+Total costs (block) : 65.36953
+Miss ratio 0.031593787011400476
+
+
+Reference id is 12
+Lease assigned is 10411
+ppuc is 0.0000037117320426403776
+cost is 269416
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46896408216
+Total costs (block) : 65.3699
+Miss ratio 0.03159378561747905
+
+
+Reference id is 12
+Lease assigned is 11615
+ppuc is 0.0000034988737999956262
+cost is 1143225
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46897551441
+Total costs (block) : 65.371506
+Miss ratio 0.031593780041793584
+
+
+Reference id is 12
+Lease assigned is 11918
+ppuc is 0.0000034850369936676876
+cost is 286941
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46897838382
+Total costs (block) : 65.3719
+Miss ratio 0.03159377864787216
+
+
+Reference id is 12
+Lease assigned is 12225
+ppuc is 0.0000034432653173657645
+cost is 290422
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46898128804
+Total costs (block) : 65.3723
+Miss ratio 0.03159377725395085
+
+
+Reference id is 12
+Lease assigned is 12536
+ppuc is 0.0000034025757498426308
+cost is 293895
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46898422699
+Total costs (block) : 65.37271
+Miss ratio 0.03159377586002943
+
+
+Reference id is 12
+Lease assigned is 12851
+ppuc is 0.0000033629270917406513
+cost is 297360
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46898720059
+Total costs (block) : 65.37313
+Miss ratio 0.031593774466108004
+
+
+Reference id is 12
+Lease assigned is 14183
+ppuc is 0.000003189525597936377
+cost is 1254105
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46899974164
+Total costs (block) : 65.37488
+Miss ratio 0.031593768890422536
+
+
+Reference id is 12
+Lease assigned is 14518
+ppuc is 0.0000031789932128494905
+cost is 314565
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46900288729
+Total costs (block) : 65.37531
+Miss ratio 0.03159376749650111
+
+
+Reference id is 12
+Lease assigned is 14857
+ppuc is 0.000003144832097414319
+cost is 317982
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46900606711
+Total costs (block) : 65.375755
+Miss ratio 0.0315937661025798
+
+
+Reference id is 12
+Lease assigned is 15200
+ppuc is 0.0000031114748079442177
+cost is 321391
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46900928102
+Total costs (block) : 65.376205
+Miss ratio 0.03159376470865838
+
+
+Reference id is 12
+Lease assigned is 15547
+ppuc is 0.0000030788935688071134
+cost is 324792
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46901252894
+Total costs (block) : 65.376656
+Miss ratio 0.031593763314736956
+
+
+Reference id is 12
+Lease assigned is 17007
+ppuc is 0.0000029348385141793054
+cost is 1362937
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46902615831
+Total costs (block) : 65.37856
+Miss ratio 0.03159375773905149
+
+
+Reference id is 12
+Lease assigned is 17374
+ppuc is 0.0000029267407522309083
+cost is 341677
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46902957508
+Total costs (block) : 65.379036
+Miss ratio 0.031593756345130064
+
+
+Reference id is 12
+Lease assigned is 17745
+ppuc is 0.000002898298698663884
+cost is 345030
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46903302538
+Total costs (block) : 65.37952
+Miss ratio 0.03159375495120875
+
+
+Reference id is 12
+Lease assigned is 18120
+ppuc is 0.000002870470039468963
+cost is 348375
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46903650913
+Total costs (block) : 65.380005
+Miss ratio 0.03159375355728733
+
+
+Reference id is 12
+Lease assigned is 18499
+ppuc is 0.0000028432353743972342
+cost is 351712
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46904002625
+Total costs (block) : 65.38049
+Miss ratio 0.03159375216336602
+
+
+Reference id is 12
+Lease assigned is 20087
+ppuc is 0.0000027216049848916904
+cost is 1469721
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46905472346
+Total costs (block) : 65.38254
+Miss ratio 0.03159374658768044
+
+
+Reference id is 12
+Lease assigned is 20486
+ppuc is 0.0000027153474151250282
+cost is 368277
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46905840623
+Total costs (block) : 65.38305
+Miss ratio 0.031593745193759126
+
+
+Reference id is 12
+Lease assigned is 20889
+ppuc is 0.0000026913119069021385
+cost is 371566
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46906212189
+Total costs (block) : 65.383575
+Miss ratio 0.031593743799837704
+
+
+Reference id is 12
+Lease assigned is 21296
+ppuc is 0.0000026677551107518532
+cost is 374847
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46906587036
+Total costs (block) : 65.384094
+Miss ratio 0.03159374240591628
+
+
+Reference id is 12
+Lease assigned is 21707
+ppuc is 0.0000026446630699248914
+cost is 378120
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46906965156
+Total costs (block) : 65.38462
+Miss ratio 0.03159374101199497
+
+
+Reference id is 12
+Lease assigned is 23423
+ppuc is 0.0000025405584274451446
+cost is 1574457
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46908539613
+Total costs (block) : 65.38682
+Miss ratio 0.03159373543630939
+
+
+Reference id is 12
+Lease assigned is 23854
+ppuc is 0.0000025357219834417352
+cost is 394365
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46908933978
+Total costs (block) : 65.38736
+Miss ratio 0.03159373404238808
+
+
+Reference id is 12
+Lease assigned is 24289
+ppuc is 0.0000025151538016549713
+cost is 397590
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46909331568
+Total costs (block) : 65.387924
+Miss ratio 0.031593732648466655
+
+
+Reference id is 12
+Lease assigned is 24728
+ppuc is 0.000002494966405277353
+cost is 400807
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46909732375
+Total costs (block) : 65.38847
+Miss ratio 0.03159373125454534
+
+
+Reference id is 12
+Lease assigned is 25171
+ppuc is 0.0000024751494990297414
+cost is 404016
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46910136391
+Total costs (block) : 65.38904
+Miss ratio 0.03159372986062392
+
+
+Reference id is 12
+Lease assigned is 27015
+ppuc is 0.0000023850054706062983
+cost is 1677145
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46911813536
+Total costs (block) : 65.39138
+Miss ratio 0.03159372428493845
+
+
+Reference id is 12
+Lease assigned is 27478
+ppuc is 0.0000023812868950638303
+cost is 419941
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46912233477
+Total costs (block) : 65.39197
+Miss ratio 0.03159372289101703
+
+
+Reference id is 12
+Lease assigned is 27945
+ppuc is 0.000002363496272766378
+cost is 423102
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46912656579
+Total costs (block) : 65.392555
+Miss ratio 0.031593721497095606
+
+
+Reference id is 12
+Lease assigned is 28416
+ppuc is 0.0000023460135364981054
+cost is 426255
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46913082834
+Total costs (block) : 65.39315
+Miss ratio 0.031593720103174294
+
+
+Reference id is 12
+Lease assigned is 28891
+ppuc is 0.0000023288309268747087
+cost is 429400
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46913512234
+Total costs (block) : 65.393745
+Miss ratio 0.03159371870925287
+
+
+Reference id is 12
+Lease assigned is 30863
+ppuc is 0.0000022499908594121337
+cost is 1777785
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46915290019
+Total costs (block) : 65.396225
+Miss ratio 0.0315937131335674
+
+
+Reference id is 12
+Lease assigned is 31358
+ppuc is 0.0000022471657621824475
+cost is 445005
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46915735024
+Total costs (block) : 65.39685
+Miss ratio 0.03159371173964598
+
+
+Reference id is 12
+Lease assigned is 31857
+ppuc is 0.0000022316347617283566
+cost is 448102
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46916183126
+Total costs (block) : 65.39747
+Miss ratio 0.03159371034572467
+
+
+Reference id is 12
+Lease assigned is 32360
+ppuc is 0.0000022163562659716172
+cost is 451191
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46916634317
+Total costs (block) : 65.398094
+Miss ratio 0.031593708951803245
+
+
+Reference id is 12
+Lease assigned is 32867
+ppuc is 0.000002201324316708932
+cost is 454272
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46917088589
+Total costs (block) : 65.39873
+Miss ratio 0.03159370755788182
+
+
+Reference id is 12
+Lease assigned is 34967
+ppuc is 0.0000021317677630881216
+cost is 1876377
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46918964966
+Total costs (block) : 65.401344
+Miss ratio 0.031593701982196354
+
+
+Reference id is 12
+Lease assigned is 35494
+ppuc is 0.0000021296668988003586
+cost is 469557
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46919434523
+Total costs (block) : 65.402
+Miss ratio 0.03159370058827493
+
+
+Reference id is 12
+Lease assigned is 36025
+ppuc is 0.0000021159990689604097
+cost is 472590
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46919907113
+Total costs (block) : 65.40266
+Miss ratio 0.03159369919435362
+
+
+Reference id is 12
+Lease assigned is 36560
+ppuc is 0.0000021025409207026693
+cost is 475615
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46920382728
+Total costs (block) : 65.40333
+Miss ratio 0.0315936978004322
+
+
+Reference id is 12
+Lease assigned is 37099
+ppuc is 0.000002089287803573518
+cost is 478632
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46920861360
+Total costs (block) : 65.40399
+Miss ratio 0.031593696406510885
+
+
+Reference id is 12
+Lease assigned is 39327
+ppuc is 0.0000020274506683237697
+cost is 1972921
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46922834281
+Total costs (block) : 65.40674
+Miss ratio 0.031593690830825305
+
+
+Reference id is 12
+Lease assigned is 39886
+ppuc is 0.0000020259442419625727
+cost is 493597
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46923327878
+Total costs (block) : 65.40743
+Miss ratio 0.03159368943690388
+
+
+Reference id is 12
+Lease assigned is 40449
+ppuc is 0.0000020138309912478905
+cost is 496566
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46923824444
+Total costs (block) : 65.40813
+Miss ratio 0.03159368804298257
+
+
+Reference id is 12
+Lease assigned is 41016
+ppuc is 0.0000020018937915267845
+cost is 499527
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46924323971
+Total costs (block) : 65.40882
+Miss ratio 0.03159368664906115
+
+
+Reference id is 12
+Lease assigned is 41587
+ppuc is 0.000001990128960356631
+cost is 502480
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46924826451
+Total costs (block) : 65.409515
+Miss ratio 0.031593685255139836
+
+
+Reference id is 12
+Lease assigned is 43943
+ppuc is 0.000001934781420487497
+cost is 2067417
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46926893868
+Total costs (block) : 65.4124
+Miss ratio 0.031593679679454256
+
+
+Reference id is 12
+Lease assigned is 44534
+ppuc is 0.0000019337684312303603
+cost is 517125
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46927410993
+Total costs (block) : 65.41312
+Miss ratio 0.031593678285532945
+
+
+Reference id is 12
+Lease assigned is 45129
+ppuc is 0.0000019229659827317654
+cost is 520030
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46927931023
+Total costs (block) : 65.41384
+Miss ratio 0.03159367689161152
+
+
+Reference id is 12
+Lease assigned is 45728
+ppuc is 0.00000191231280847996
+cost is 522927
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46928453950
+Total costs (block) : 65.41457
+Miss ratio 0.0315936754976901
+
+
+Reference id is 12
+Lease assigned is 46331
+ppuc is 0.000001901805954934806
+cost is 525816
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46928979766
+Total costs (block) : 65.415306
+Miss ratio 0.03159367410376879
+
+
+Reference id is 12
+Lease assigned is 48815
+ppuc is 0.000001851967599826841
+cost is 2159865
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46931139631
+Total costs (block) : 65.41832
+Miss ratio 0.03159366852808321
+
+
+Reference id is 12
+Lease assigned is 49438
+ppuc is 0.0000018513684389816733
+cost is 540141
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46931679772
+Total costs (block) : 65.419075
+Miss ratio 0.031593667134161896
+
+
+Reference id is 12
+Lease assigned is 50065
+ppuc is 0.0000018416816763723291
+cost is 542982
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46932222754
+Total costs (block) : 65.41983
+Miss ratio 0.03159366574024047
+
+
+Reference id is 12
+Lease assigned is 50696
+ppuc is 0.0000018321226056447697
+cost is 545815
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46932768569
+Total costs (block) : 65.420586
+Miss ratio 0.03159366434631916
+
+
+Reference id is 12
+Lease assigned is 51331
+ppuc is 0.0000018226888305628463
+cost is 548640
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46933317209
+Total costs (block) : 65.42135
+Miss ratio 0.03159366295239774
+
+
+Reference id is 12
+Lease assigned is 53943
+ppuc is 0.0000017775684197194552
+cost is 2250265
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46935567474
+Total costs (block) : 65.42449
+Miss ratio 0.03159365737671227
+
+
+Reference id is 12
+Lease assigned is 54598
+ppuc is 0.0000017773196242746315
+cost is 562645
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46936130119
+Total costs (block) : 65.42528
+Miss ratio 0.03159365598279085
+
+
+Reference id is 12
+Lease assigned is 55257
+ppuc is 0.0000017685905394554864
+cost is 565422
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46936695541
+Total costs (block) : 65.42606
+Miss ratio 0.031593654588869424
+
+
+Reference id is 12
+Lease assigned is 55920
+ppuc is 0.0000017599715588596089
+cost is 568191
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46937263732
+Total costs (block) : 65.42686
+Miss ratio 0.03159365319494811
+
+
+Reference id is 12
+Lease assigned is 56587
+ppuc is 0.0000017514607182390114
+cost is 570952
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46937834684
+Total costs (block) : 65.42765
+Miss ratio 0.03159365180102669
+
+
+Reference id is 12
+Lease assigned is 60014
+ppuc is 0.0000017104227001827416
+cost is 2923254
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46940757938
+Total costs (block) : 65.431725
+Miss ratio 0.0315936448314198
+
+
+Reference id is 12
+Lease assigned is 60705
+ppuc is 0.0000017025623563463012
+cost is 587350
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46941345288
+Total costs (block) : 65.43254
+Miss ratio 0.031593643437498486
+
+
+Reference id is 12
+Lease assigned is 61400
+ppuc is 0.000001694757268390235
+cost is 590055
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46941935343
+Total costs (block) : 65.433365
+Miss ratio 0.031593642043577064
+
+
+Reference id is 12
+Lease assigned is 62099
+ppuc is 0.0000016870461845763489
+cost is 592752
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46942528095
+Total costs (block) : 65.43419
+Miss ratio 0.03159364064965564
+
+
+Reference id is 12
+Lease assigned is 65686
+ppuc is 0.0000016495999060387894
+cost is 3031038
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46945559133
+Total costs (block) : 65.438416
+Miss ratio 0.03159363368004875
+
+
+Reference id is 12
+Lease assigned is 66409
+ppuc is 0.000001642667297450909
+cost is 608766
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46946167899
+Total costs (block) : 65.43927
+Miss ratio 0.03159363228612744
+
+
+Reference id is 12
+Lease assigned is 67136
+ppuc is 0.0000016355717222733792
+cost is 611407
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46946779306
+Total costs (block) : 65.44012
+Miss ratio 0.031593630892206015
+
+
+Reference id is 12
+Lease assigned is 67867
+ppuc is 0.0000016285584001042277
+cost is 614040
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46947393346
+Total costs (block) : 65.44098
+Miss ratio 0.0315936294982847
+
+
+Reference id is 12
+Lease assigned is 71614
+ppuc is 0.0000015942545616405773
+cost is 3136262
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46950529608
+Total costs (block) : 65.44535
+Miss ratio 0.03159362252867781
+
+
+Reference id is 12
+Lease assigned is 72369
+ppuc is 0.0000015881334667365446
+cost is 629670
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46951159278
+Total costs (block) : 65.44622
+Miss ratio 0.03159362113475639
+
+
+Reference id is 12
+Lease assigned is 73128
+ppuc is 0.0000015816603321170366
+cost is 632247
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46951791525
+Total costs (block) : 65.447105
+Miss ratio 0.031593619740834966
+
+
+Reference id is 12
+Lease assigned is 73891
+ppuc is 0.0000015752596027825386
+cost is 634816
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46952426341
+Total costs (block) : 65.44799
+Miss ratio 0.031593618346913654
+
+
+Reference id is 12
+Lease assigned is 77798
+ppuc is 0.0000015437215916634093
+cost is 3238926
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46955665267
+Total costs (block) : 65.4525
+Miss ratio 0.03159361137730676
+
+
+Reference id is 12
+Lease assigned is 78585
+ppuc is 0.0000015383148068953423
+cost is 650062
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46956315329
+Total costs (block) : 65.45341
+Miss ratio 0.03159360998338534
+
+
+Reference id is 12
+Lease assigned is 79376
+ppuc is 0.0000015323909129218863
+cost is 652575
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46956967904
+Total costs (block) : 65.454315
+Miss ratio 0.03159360858946392
+
+
+Reference id is 12
+Lease assigned is 80171
+ppuc is 0.000001526531110704036
+cost is 655080
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46957622984
+Total costs (block) : 65.45523
+Miss ratio 0.031593607195542606
+
+
+Reference id is 12
+Lease assigned is 84238
+ppuc is 0.000001497440873547108
+cost is 3339030
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46960962014
+Total costs (block) : 65.45989
+Miss ratio 0.031593600225935714
+
+
+Reference id is 12
+Lease assigned is 85057
+ppuc is 0.000001492666529341346
+cost is 669942
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46961631956
+Total costs (block) : 65.46082
+Miss ratio 0.03159359883201429
+
+
+Reference id is 12
+Lease assigned is 85880
+ppuc is 0.0000014872299004597027
+cost is 672391
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46962304347
+Total costs (block) : 65.46176
+Miss ratio 0.03159359743809298
+
+
+Reference id is 12
+Lease assigned is 86707
+ppuc is 0.0000014818502975555397
+cost is 674832
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46962979179
+Total costs (block) : 65.4627
+Miss ratio 0.03159359604417156
+
+
+Reference id is 12
+Lease assigned is 90934
+ppuc is 0.000001454937388224435
+cost is 3436574
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46966415753
+Total costs (block) : 65.46749
+Miss ratio 0.031593589074564665
+
+
+Reference id is 12
+Lease assigned is 91785
+ppuc is 0.0000014507260884072478
+cost is 689310
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46967105063
+Total costs (block) : 65.46845
+Miss ratio 0.03159358768064324
+
+
+Reference id is 12
+Lease assigned is 92640
+ppuc is 0.0000014457239101048873
+cost is 691695
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46967796758
+Total costs (block) : 65.46941
+Miss ratio 0.03159358628672193
+
+
+Reference id is 12
+Lease assigned is 93499
+ppuc is 0.0000014407727152226283
+cost is 694072
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46968490830
+Total costs (block) : 65.47038
+Miss ratio 0.03159358489280051
+
+
+Reference id is 12
+Lease assigned is 97886
+ppuc is 0.0000014158057152112468
+cost is 3531558
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46972022388
+Total costs (block) : 65.4753
+Miss ratio 0.031593577923193616
+
+
+Reference id is 12
+Lease assigned is 98769
+ppuc is 0.0000014120982933380026
+cost is 708166
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46972730554
+Total costs (block) : 65.476295
+Miss ratio 0.031593576529272305
+
+
+Reference id is 12
+Lease assigned is 99656
+ppuc is 0.0000014074852882600244
+cost is 710487
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46973441041
+Total costs (block) : 65.47728
+Miss ratio 0.03159357513535088
+
+
+Reference id is 12
+Lease assigned is 100547
+ppuc is 0.0000014029180695847362
+cost is 712800
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46974153841
+Total costs (block) : 65.47828
+Miss ratio 0.03159357374142946
+
+
+Reference id is 12
+Lease assigned is 105094
+ppuc is 0.0000013796978020310255
+cost is 3623982
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46977777823
+Total costs (block) : 65.48333
+Miss ratio 0.03159356677182257
+
+
+Reference id is 12
+Lease assigned is 106009
+ppuc is 0.000001376443545167995
+cost is 726510
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46978504333
+Total costs (block) : 65.48434
+Miss ratio 0.031593565377901256
+
+
+Reference id is 12
+Lease assigned is 106928
+ppuc is 0.0000013721806832636495
+cost is 728767
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46979233100
+Total costs (block) : 65.48536
+Miss ratio 0.03159356398397983
+
+
+Reference id is 12
+Lease assigned is 107851
+ppuc is 0.0000013679591144379876
+cost is 731016
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46979964116
+Total costs (block) : 65.486374
+Miss ratio 0.03159356259005852
+
+
+Reference id is 12
+Lease assigned is 112558
+ppuc is 0.00000134631322892764
+cost is 3713846
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46983677962
+Total costs (block) : 65.491554
+Miss ratio 0.03159355562045163
+
+
+Reference id is 12
+Lease assigned is 113505
+ppuc is 0.000001343468459390979
+cost is 744342
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46984422304
+Total costs (block) : 65.49259
+Miss ratio 0.03159355422653021
+
+
+Reference id is 12
+Lease assigned is 114456
+ppuc is 0.0000013395219246251014
+cost is 746535
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46985168839
+Total costs (block) : 65.49363
+Miss ratio 0.031593552832608784
+
+
+Reference id is 12
+Lease assigned is 115411
+ppuc is 0.000001335612779143071
+cost is 748720
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46985917559
+Total costs (block) : 65.494675
+Miss ratio 0.03159355143868747
+
+
+Reference id is 12
+Lease assigned is 120278
+ppuc is 0.0000013153913947094958
+cost is 3801150
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46989718709
+Total costs (block) : 65.49997
+Miss ratio 0.03159354446908058
+
+
+Reference id is 12
+Lease assigned is 121257
+ppuc is 0.0000013129183286024509
+cost is 761662
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46990480371
+Total costs (block) : 65.50103
+Miss ratio 0.03159354307515916
+
+
+Reference id is 12
+Lease assigned is 122240
+ppuc is 0.0000013092586846401699
+cost is 763791
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46991244162
+Total costs (block) : 65.5021
+Miss ratio 0.03159354168123785
+
+
+Reference id is 12
+Lease assigned is 123227
+ppuc is 0.000001305633023114927
+cost is 765912
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46992010074
+Total costs (block) : 65.50317
+Miss ratio 0.031593540287316424
+
+
+Reference id is 12
+Lease assigned is 128254
+ppuc is 0.0000012867051957670487
+cost is 3885894
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46995895968
+Total costs (block) : 65.50858
+Miss ratio 0.03159353331770953
+
+
+Reference id is 12
+Lease assigned is 129265
+ppuc is 0.000001284571017508703
+cost is 778470
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46996674438
+Total costs (block) : 65.50967
+Miss ratio 0.03159353192378811
+
+
+Reference id is 12
+Lease assigned is 130280
+ppuc is 0.0000012811725290986312
+cost is 780535
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46997454973
+Total costs (block) : 65.51076
+Miss ratio 0.0315935305298668
+
+
+Reference id is 12
+Lease assigned is 131299
+ppuc is 0.0000012778050376185804
+cost is 782592
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 46998237565
+Total costs (block) : 65.51185
+Miss ratio 0.031593529135945375
+
+
+Reference id is 12
+Lease assigned is 2094056
+ppuc is 0.0000012716413525068
+cost is 603157485
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 47601395050
+Total costs (block) : 66.3526
+Miss ratio 0.03159245999824789
+
+
+Reference id is 4
+Lease assigned is 2094080
+ppuc is 0.0000009535732423142987
+cost is 548204350545
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 595805745595
+Total costs (block) : 830.50635
+Miss ratio 0.030863783415752355
+
+
+Reference id is 8
+Lease assigned is 2094052
+ppuc is 0.0000009514266705305308
+cost is 68210196340
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 664015941935
+Total costs (block) : 925.586
+Miss ratio 0.030773322100036915
+
+
+Reference id is 1
+Lease assigned is 2094052
+ppuc is 0.0000007932719925632246
+cost is 27746789507693
+
+
+*** Get miss ratio from PPUC ***
+Total costs: 28410805449628
+Total costs (block) : 39602.43
+Miss ratio 0.00009206571922237838
+
