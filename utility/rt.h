@@ -18,8 +18,8 @@ std::map<uint64_t, double> MR;
 
 std::map<uint64_t, double> assigned_lease;
 std::map<uint64_t, double> expired_cnt;
-int currentNumOfCL = 0;
-int maxNumOfCL = 0;
+uint64_t currentNumOfCL = 0;
+uint64_t maxNumOfCL = 0;
 
 void trackingLease(int addr,int ref_id, int arr_id, int lease) {
 
@@ -27,17 +27,21 @@ void trackingLease(int addr,int ref_id, int arr_id, int lease) {
 
 	addr = addr * DS / CLS;
 
+	lease += 1;
+
 	currentNumOfCL += 1;
-	expired_cnt[refT + lease + 1] += 1;
+	expired_cnt[refT + lease] += 1;
 	if(lat.find(addr) != lat.end()) {
-		if (lat[addr] + lease >= refT) {
-			expired_cnt[lat[addr] + lease + 1] -= 1;
+		if (lat[addr] + lease > refT) {
+			expired_cnt[lat[addr] + lease] -= 1;
 			currentNumOfCL -= 1;
 		}
 	}
 	if (expired_cnt.find(refT) != expired_cnt.end()) {
 		currentNumOfCL -= expired_cnt[refT];
 	}
+
+	expired_cnt.erase(refT);
 
 	if (currentNumOfCL > maxNumOfCL) {
 		maxNumOfCL = currentNumOfCL;

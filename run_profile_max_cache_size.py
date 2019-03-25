@@ -5,6 +5,7 @@ from os import fdopen, remove
 
 rll_path = "./poly_trace_rll/"
 trace_src_path = "./trace_src/"
+result_path = "./poly_trace_rll_maxCLSize/"
 
 assigned_id_list_all = {}
 assigned_lease_list_all = {}
@@ -32,6 +33,9 @@ files = os.listdir(trace_src_path)
 for f in files:
 	if ("_ref_arr.cpp" not in f):
 		continue
+#	if ("2mm" not in f):
+#		continue
+
 	name = f.replace("_ref_arr.cpp","")
 	
 	codes = open(trace_src_path + f, "r")
@@ -66,7 +70,11 @@ for f in files:
 				new_codes.write(line)
 
 		new_codes.close()
-
-	codes.close()
+		
+		print name, index
+		os.system("g++ -O3 " + trace_src_path + f.replace(".cpp","_lease.cpp") + " -o ./bin/" + name)
+		os.system("./bin/" + name + " >> " + result_path + name + "_rll_maxCLSize.txt" )
 	
+	codes.close()
+
 
