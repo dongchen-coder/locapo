@@ -14,9 +14,41 @@ std::map<uint64_t, uint64_t> rtTmp;
 unsigned long long refT = 0;
 
 std::map<uint64_t, double> RT;
-
 std::map<uint64_t, double> MR;
 
+std::map<uint64_t, double> assigned_lease;
+std::map<uint64_t, double> expired_cnt;
+int currentNumOfCL = 0;
+int maxNumOfCL = 0;
+
+void trackingLease(int addr,int ref_id, int arr_id, int lease) {
+
+	refT ++;
+
+	addr = addr * DS / CLS;
+
+	currentNumOfCL += 1;
+	expired_cnt[refT + lease + 1] += 1;
+	if(lat.find(addr) != lat.end()) {
+		if (lat[addr] + lease >= refT) {
+			expired_cnt[lat[addr] + lease + 1] -= 1;
+			currentNumOfCL -= 1;
+		}
+	}
+	if (expired_cnt.find(refT) != expired_cnt.end()) {
+		currentNumOfCL -= expired_cnt[refT];
+	}
+
+	if (currentNumOfCL > maxNumOfCL) {
+		maxNumOfCL = currentNumOfCL;
+	}
+	return;
+}
+
+void dumpMaxNumOfCL() {
+	cout << maxNumOfCL << endl;
+	return;
+}
 
 void rtTmpAccess(int addr,int ref_id, int arr_id) {
 
