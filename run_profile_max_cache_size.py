@@ -5,6 +5,7 @@ from os import fdopen, remove
 
 rll_path = "./poly_trace_rll/"
 trace_src_path = "./trace_src/"
+trace_with_lease_src_path = "./trace_src/trace_with_lease_src/"
 result_path = "./poly_trace_rll_maxCLSize/"
 
 assigned_id_list_all = {}
@@ -49,7 +50,7 @@ for f in files:
 		current_lease[assigned_id_list_all[name][index]] = assigned_lease_list_all[name][index]
 		
 		codes.seek(0)
-		new_codes = open(trace_src_path + f.replace(".cpp","_lease.cpp"), 'w')  
+		new_codes = open(trace_with_lease_src_path + f.replace(".cpp","_lease_" + str(index) + ".cpp"), 'w')  
 		for line in codes:
 			if ("rtTmpAccess" in line):
 				lineList = line.replace("rtTmpAccess", "trackingLease").split(",")
@@ -66,14 +67,20 @@ for f in files:
 				new_codes.write("dumpMaxNumOfCL();")
 			elif ("RTtoMR_AET" in line or "dumpMR" in line):
 				continue
-			else:
+			elif ("../utility/rt.h" in line):
+                                replace_line = "#include \"../../utility/rt.h\"\n"
+                                new_codes.write(replace_line)
+                        elif ("../utility/data_size.h" in line):
+                                replace_line = "#include \"../../utility/data_size.h\"\n"
+                                new_codes.write(replace_line)
+                        else:
 				new_codes.write(line)
 
 		new_codes.close()
 		
 		print name, index
-		os.system("g++ -O3 " + trace_src_path + f.replace(".cpp","_lease.cpp") + " -o ./bin/" + name)
-		os.system("./bin/" + name + " >> " + result_path + name + "_rll_maxCLSize.txt" )
+		os.system("g++ -O3 " + trace_with_lease_src_path + f.replace(".cpp","_lease_" + str(index) + ".cpp") + " -o ./bin/" + name + "_lease_" + str(index))
+		#os.system("./bin/" + name + " >> " + result_path + name + "_rll_maxCLSize.txt" )
 	
 	codes.close()
 
