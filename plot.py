@@ -70,12 +70,16 @@ for f in files:
 
 	# Reading and processing RLL max number of CL size results
 	maxCLSizes_rll = []
-	for i in range(len(cacheSizes)):
+	print f.replace("_trace_result.txt","") + " missing : ",
+	for i in range(len(cacheSizes_rll)):
 		if (os.path.exists(rll_maxNumOfCLSize_path + f.replace("_trace_result.txt","") + "_lease_" + str(i) + "_rll_maxCLSize.txt")):
 			content = open(rll_maxNumOfCLSize_path + f.replace("_trace_result.txt","") + "_lease_" + str(i) + "_rll_maxCLSize.txt")
 			for line in content:
 				maxCLSizes_rll.append(float(line) * 64 / 1024)
 			content.close()
+		else:
+			print i,
+	print ""
 
 	# Ploting the plots
 	plt.plot(cacheSizes, missRatios, 'b', label = "LRU")
