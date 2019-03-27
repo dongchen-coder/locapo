@@ -34,8 +34,8 @@ files = os.listdir(trace_src_path)
 for f in files:
 	if ("_ref_arr.cpp" not in f):
 		continue
-#	if ("2mm" not in f):
-#		continue
+	if (not(("symm" in f) or ("jacobi_2d" in f) or ("ludcmp" in f) or ("jacobi_1d" in f) or ("lu" in f))):
+		continue
 
 	name = f.replace("_ref_arr.cpp","")
 	
