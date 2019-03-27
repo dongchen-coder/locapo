@@ -8,6 +8,8 @@ lru_mrc_path = "./poly_trace_lru_mrc/"
 
 rll_path = "./poly_trace_rll/"
 
+rll_maxNumOfCLSize_path = "./poly_trace_rll_maxCLSize/"
+
 figPath = "./plots/"
 
 for f in files:
@@ -55,8 +57,8 @@ for f in files:
 	# Reading and processing RLL resutls
 	cacheSizes_rll = []
 	missRatios_rll = []
-	if (os.path.exists(rll_path + f.split('_')[0] + "_ref_arr.cpp.o.tr.txt")):
-		content = open(rll_path + f.split('_')[0] + "_ref_arr.cpp.o.tr.txt")
+	if (os.path.exists(rll_path + f.replace("_trace_result.txt","") + "_ref_arr.cpp.o.tr.txt")):
+		content = open(rll_path + f.replace("_trace_result.txt","") + "_ref_arr.cpp.o.tr.txt")
 		for line in content:
 			if ("Total costs (block)" in line):
 				lineList = line.split()
@@ -66,9 +68,19 @@ for f in files:
 				missRatios_rll.append(float(lineList[2]))
 		content.close()
 
+	# Reading and processing RLL max number of CL size results
+	maxCLSizes_rll = []
+	if (os.path.exists(rll_maxNumOfCLSize_path + f.replace("_trace_result.txt","") + "_rll_maxCLSize.txt")):
+		content = open(rll_maxNumOfCLSize_path + f.replace("_trace_result.txt","") + "_rll_maxCLSize.txt")
+		for line in content:
+			maxCLSizes_rll.append(float(line) * 64 / 1024)
+		content.close()
+
 	# Ploting the plots
 	plt.plot(cacheSizes, missRatios, 'b', label = "LRU")
 	plt.plot(cacheSizes_rll, missRatios_rll, 'r', label = "RLL")
+	if (len(maxCLSizes_rll) == len(missRatios_rll)):
+		plt.plot(maxCLSizes_rll, missRatios_rll, 'g', label = "RLL_MAX")
 	plt.title(f.split('_')[0])
 	plt.xlabel('Cache Sizes (KB)')
 	plt.ylabel('Miss Ratios')
