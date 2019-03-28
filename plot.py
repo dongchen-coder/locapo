@@ -10,6 +10,8 @@ rll_path = "./poly_trace_rll/"
 
 rll_maxNumOfCLSize_path = "./poly_trace_rll_maxCLSize/"
 
+opt_path = "./poly_trace_opt_mrc/"
+
 figPath = "./plots/"
 
 for f in files:
@@ -81,11 +83,24 @@ for f in files:
 			print i,
 	print ""
 
+	# Reading OPT results
+	cacheSizes_opt = []
+	missRatios_opt = []
+	if (os.path.exists(opt_path + "opt_" + f.replace("_trace_result.txt","") + ".cpp.o_mrc")):
+		content = open(opt_path + "opt_" + f.replace("_trace_result.txt","") + ".cpp.o_mrc", 'r')
+		for line in content:
+			lineList = line.split()
+			if (len(lineList) == 2):
+				if (lineList[0].isdigit()):
+					cacheSizes_opt.append(float(lineList[0]) /1024)
+					missRatios_opt.append(float(lineList[1]))
+
 	# Ploting the plots
 	plt.plot(cacheSizes, missRatios, 'b', label = "LRU")
 	plt.plot(cacheSizes_rll, missRatios_rll, 'r', label = "RLL")
 	if (len(maxCLSizes_rll) == len(missRatios_rll)):
 		plt.plot(maxCLSizes_rll, missRatios_rll, 'g', label = "RLL_MAX")
+	plt.plot(cacheSizes_opt, missRatios_opt, 'y', label = "OPT")
 	plt.title(f.split('_')[0])
 	plt.xlabel('Cache Sizes (KB)')
 	plt.ylabel('Miss Ratios')
