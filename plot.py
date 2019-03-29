@@ -1,5 +1,6 @@
 import os
 import matplotlib.pyplot as plt
+import matplotlib.ticker as ticker
 
 lru_path = "./poly_trace_lru/"
 files = os.listdir(lru_path)
@@ -14,7 +15,13 @@ opt_path = "./poly_trace_opt_mrc/"
 
 figPath = "./plots/"
 
+fig = plt.figure(figsize=(6,8))
+fig_cnt = 1
+
 for f in files:
+
+	if (".DS_Store" in f):
+		continue
 
 	# Reading and processing LRU results 
 	content = open(lru_path + f, "r")
@@ -83,6 +90,10 @@ for f in files:
 			print i,
 	print ""
 
+	#if ("correlation" in f):
+	#	for index in range(len(cacheSizes_rll)):
+	#		print cacheSizes_rll[index], maxCLSizes_rll[index], missRatios_rll[index]
+
 	# Reading OPT results
 	cacheSizes_opt = []
 	missRatios_opt = []
@@ -92,20 +103,52 @@ for f in files:
 			lineList = line.split()
 			if (len(lineList) == 2):
 				if (lineList[0].isdigit()):
-					cacheSizes_opt.append(float(lineList[0]) /1024)
+					cacheSizes_opt.append(float(lineList[0]))
 					missRatios_opt.append(float(lineList[1]))
 
 	# Ploting the plots
+	'''
 	plt.plot(cacheSizes, missRatios, 'b', label = "LRU")
 	plt.plot(cacheSizes_rll, missRatios_rll, 'r', label = "RLL")
 	if (len(maxCLSizes_rll) == len(missRatios_rll)):
 		plt.plot(maxCLSizes_rll, missRatios_rll, 'g', label = "RLL_MAX")
 	plt.plot(cacheSizes_opt, missRatios_opt, 'y', label = "OPT")
-	plt.title(f.split('_')[0])
+	plt.title(f.replace("_trace_result.txt",""))
 	plt.xlabel('Cache Sizes (KB)')
 	plt.ylabel('Miss Ratios')
 	plt.xscale('symlog')
 	plt.legend()
 	plt.savefig(figPath + f.split('_')[0] + '.pdf')
 	plt.clf()
+	'''
+#e66101
+#fdb863
+#b2abd2
+#5e3c99
 
+	# Ploting to all.pdf
+	ax = fig.add_subplot(10, 3, fig_cnt)
+	ax.set_title(f.replace("_trace_result.txt",""), fontsize = 10, y = 0.6)
+	l1 = ax.plot(cacheSizes, missRatios, '#e66101', linewidth=2, label = "LRU")[0]
+	l2 = l1
+	if (len(maxCLSizes_rll) == len(missRatios_rll)):
+		l2 = ax.plot(maxCLSizes_rll, missRatios_rll, '#b2abd2', linewidth=1.5, label = "RLL_MAX")[0]
+	l3 = ax.plot(cacheSizes_rll, missRatios_rll, '#fdb863', linewidth=1, label = "RLL")[0]
+	l4 = ax.plot(cacheSizes_opt, missRatios_opt, '#5e3c99', linewidth=0.5, label = "OPT")[0]
+	if (fig_cnt == 29):
+		ax.set_xlabel('Cache Sizes (KB)')
+	if (fig_cnt == 16):
+		ax.set_ylabel('Miss Ratios')
+	ax.set_xscale('symlog')
+	#ax.xaxis.set_major_locator(plt.LogLocator())	
+	#ax.xaxis.set_bounds(1)
+
+	if (fig_cnt == 1):
+		fig.legend([l1, l2, l3, l4], ["LRU", "RLL_MAX", "RLL", "OPT"], ncol=4, mode="expand", loc = "upper center")
+
+	fig_cnt += 1
+
+plt.tight_layout(pad=0.4, w_pad=0.4, h_pad=-1.2)
+plt.subplots_adjust(left=0.08, right = 0.99, top = 0.95, bottom = 0.07)
+plt.show()
+#plt.savefig(figPath + "all.pdf")
