@@ -29,6 +29,11 @@ for f in files:
 	assigned_lease_list_all[name] = assigned_lease_list
 
 
+#for index in range(len(assigned_id_list_all["gramschmidt"])):
+#	print assigned_id_list_all["gramschmidt"][index], assigned_lease_list_all["gramschmidt"][index]
+
+#exit()
+
 files = os.listdir(trace_src_path)
 
 for f in files:

@@ -1,4 +1,5 @@
 import os
+import math
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 
@@ -90,7 +91,7 @@ for f in files:
 			print i,
 	print ""
 
-	#if ("correlation" in f):
+	#if ("gramschmidt" in f):
 	#	for index in range(len(cacheSizes_rll)):
 	#		print cacheSizes_rll[index], maxCLSizes_rll[index], missRatios_rll[index]
 
@@ -105,6 +106,7 @@ for f in files:
 				if (lineList[0].isdigit()):
 					cacheSizes_opt.append(float(lineList[0]))
 					missRatios_opt.append(float(lineList[1]))
+
 
 	# Ploting the plots
 	'''
@@ -129,12 +131,12 @@ for f in files:
 	# Ploting to all.pdf
 	ax = fig.add_subplot(10, 3, fig_cnt)
 	ax.set_title(f.replace("_trace_result.txt",""), fontsize = 10, y = 0.6)
-	l1 = ax.plot(cacheSizes, missRatios, '#e66101', linewidth=2, label = "LRU")[0]
+	l1 = ax.plot(cacheSizes, missRatios, '#5e3c99', linewidth=2.5, label = "LRU")[0]
 	l2 = l1
 	if (len(maxCLSizes_rll) == len(missRatios_rll)):
-		l2 = ax.plot(maxCLSizes_rll, missRatios_rll, '#b2abd2', linewidth=1.5, label = "RLL_MAX")[0]
-	l3 = ax.plot(cacheSizes_rll, missRatios_rll, '#fdb863', linewidth=1, label = "RLL")[0]
-	l4 = ax.plot(cacheSizes_opt, missRatios_opt, '#5e3c99', linewidth=0.5, label = "OPT")[0]
+		l2 = ax.plot(maxCLSizes_rll, missRatios_rll, '#fdb863', linewidth=2, label = "ORL-MAX")[0]
+	l3 = ax.plot(cacheSizes_rll, missRatios_rll, '#b2abd2', linewidth=1.5, label = "ORL-AVG")[0]
+	l4 = ax.plot(cacheSizes_opt, missRatios_opt, '#e66101', linewidth=1, label = "OPT")[0]
 	if (fig_cnt == 29):
 		ax.set_xlabel('Cache Sizes (KB)')
 	if (fig_cnt == 16):
@@ -142,13 +144,28 @@ for f in files:
 	ax.set_xscale('symlog')
 	#ax.xaxis.set_major_locator(plt.LogLocator())	
 	#ax.xaxis.set_bounds(1)
+	#ax.xaxis.set_xticklabels(exclude_overlapping=True)
+	maxCacheSize = 1
+	if (len(cacheSizes) != 0):
+		maxCacheSize = max(cacheSizes[-1], maxCacheSize)
+	if (len(maxCLSizes_rll) != 0):
+		maxCacheSize = max(maxCLSizes_rll[-1], maxCacheSize)
+	if (len(cacheSizes_opt) != 0):
+		maxCacheSize = max(cacheSizes_opt[-1], maxCacheSize)
+	numOfTicks = math.log10(maxCacheSize)
+	showed_xticks = []
+	for i in range(int(numOfTicks)):
+		if (int(numOfTicks) >= 5 and i % 2 == 1):
+			continue
+		showed_xticks.append(math.pow(10, i))
+	ax.set_xticks(showed_xticks)
 
 	if (fig_cnt == 1):
-		fig.legend([l1, l2, l3, l4], ["LRU", "RLL_MAX", "RLL", "OPT"], ncol=4, mode="expand", loc = "upper center")
+		fig.legend([l1, l2, l3, l4], ["LRU", "ORL-MAX", "ORL-AVG", "OPT"], ncol=4, mode="expand", loc = "upper center")
 
 	fig_cnt += 1
 
 plt.tight_layout(pad=0.4, w_pad=0.4, h_pad=-1.2)
-plt.subplots_adjust(left=0.08, right = 0.99, top = 0.95, bottom = 0.07)
-plt.show()
-#plt.savefig(figPath + "all.pdf")
+plt.subplots_adjust(left=0.08, right = 0.98, top = 0.95, bottom = 0.07)
+#plt.show()
+plt.savefig(figPath + "all.pdf")
