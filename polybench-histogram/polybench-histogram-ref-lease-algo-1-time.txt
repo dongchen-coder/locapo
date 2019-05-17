@@ -1,0 +1,56 @@
+2mm-hist.txt
+Algorithm 1 takes: 203.895µs
+3mm-hist.txt
+Algorithm 1 takes: 318.189µs
+adi-hist.txt
+Algorithm 1 takes: 940.398µs
+atax-hist.txt
+Algorithm 1 takes: 248.975µs
+bicg-hist.txt
+Algorithm 1 takes: 144.836µs
+cholesky-hist.txt
+Algorithm 1 takes: 2.037563ms
+correlation-hist.txt
+Algorithm 1 takes: 772.193µs
+covariance-hist.txt
+Algorithm 1 takes: 473.049µs
+deriche-hist.txt
+Algorithm 1 takes: 433.877µs
+durbin-hist.txt
+Algorithm 1 takes: 939.321µs
+fdtd_2d-hist.txt
+Algorithm 1 takes: 426.113µs
+floyd_warshall-hist.txt
+Algorithm 1 takes: 650.121µs
+gemm-hist.txt
+Algorithm 1 takes: 121.707µs
+gemver-hist.txt
+Algorithm 1 takes: 361.898µs
+gesummv-hist.txt
+Algorithm 1 takes: 188.056µs
+gramschmidt-hist.txt
+Algorithm 1 takes: 281.881µs
+heat_3d-hist.txt
+Algorithm 1 takes: 607.058µs
+jacobi_1d-hist.txt
+Algorithm 1 takes: 189.344µs
+jacobi_2d-hist.txt
+Algorithm 1 takes: 494.671µs
+lu-hist.txt
+Algorithm 1 takes: 1.634053ms
+ludcmp-hist.txt
+Algorithm 1 takes: 2.463598ms
+mvt-hist.txt
+Algorithm 1 takes: 159.484µs
+seidel_2d-hist.txt
+Algorithm 1 takes: 244.181µs
+symm-hist.txt
+Algorithm 1 takes: 1.0304ms
+syr2d-hist.txt
+Algorithm 1 takes: 1.040912ms
+syrk-hist.txt
+Algorithm 1 takes: 545.364µs
+trisolv-hist.txt
+Algorithm 1 takes: 244.217µs
+trmm-hist.txt
+Algorithm 1 takes: 241.636µs
