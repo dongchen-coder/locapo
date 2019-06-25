@@ -6,7 +6,8 @@ from os import fdopen, remove
 rll_path = "./poly_trace_rll/"
 trace_src_path = "./trace_src/"
 trace_with_lease_src_path = "./trace_src/trace_with_lease_src/"
-result_path = "./poly_trace_rll_maxCLSize/"
+#result_path = "./poly_trace_rll_maxCLSize/"
+result_path = "./poly_trace_rll_CLSizes/"
 
 assigned_id_list_all = {}
 assigned_lease_list_all = {}
@@ -29,17 +30,21 @@ for f in files:
 	assigned_lease_list_all[name] = assigned_lease_list
 
 
-#for index in range(len(assigned_id_list_all["gramschmidt"])):
-#	print assigned_id_list_all["gramschmidt"][index], assigned_lease_list_all["gramschmidt"][index]
+for index in range(len(assigned_id_list_all["ludcmp"])):
+	print assigned_id_list_all["ludcmp"][index], assigned_lease_list_all["ludcmp"][index]
 
-#exit()
+exit()
 
 files = os.listdir(trace_src_path)
 
 for f in files:
 	if ("_ref_arr.cpp" not in f):
 		continue
-	if (not(("symm" in f) or ("jacobi_2d" in f) or ("ludcmp" in f) or ("jacobi_1d" in f) or ("lu" in f))):
+	#if (not(("symm" in f) or ("jacobi_2d" in f) or ("ludcmp" in f) or ("jacobi_1d" in f) or ("lu" in f))):
+	#	continue
+	if (("correlation" in f) or ("gramschmidt" in f)):
+		continue
+	if (not("2mm" in f)):
 		continue
 
 	name = f.replace("_ref_arr.cpp","")

@@ -43,6 +43,8 @@ void trackingLease(int addr,int ref_id, int arr_id, int lease) {
 
 	expired_cnt.erase(refT);
 
+	cout << refT << " " << currentNumOfCL << end;
+
 	if (currentNumOfCL > maxNumOfCL) {
 		maxNumOfCL = currentNumOfCL;
 	}
@@ -50,7 +52,7 @@ void trackingLease(int addr,int ref_id, int arr_id, int lease) {
 }
 
 void dumpMaxNumOfCL() {
-	cout << maxNumOfCL << endl;
+	//cout << maxNumOfCL << endl;
 	return;
 }
 
