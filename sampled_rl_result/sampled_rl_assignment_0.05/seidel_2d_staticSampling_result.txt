@@ -1,0 +1,53 @@
+Ref 0 RI 1 CNT 1136
+Ref 0 RI 10424318 CNT 149
+Ref 0 RI 10424336 CNT 1
+Ref 0 RISETSIZE 3
+Ref 1 RI 1 CNT 1142
+Ref 1 RI 9 CNT 163
+Ref 1 RISETSIZE 2
+Ref 2 RI 8 CNT 1153
+Ref 2 RI 9 CNT 151
+Ref 2 RI 10424336 CNT 1
+Ref 2 RISETSIZE 3
+Ref 3 RI 1 CNT 1123
+Ref 3 RI 10129 CNT 182
+Ref 3 RISETSIZE 2
+Ref 4 RI 1 CNT 1140
+Ref 4 RI 5 CNT 165
+Ref 4 RISETSIZE 2
+Ref 5 RI 4 CNT 1167
+Ref 5 RI 9 CNT 138
+Ref 5 RISETSIZE 2
+Ref 6 RI 1 CNT 1118
+Ref 6 RI 10129 CNT 185
+Ref 6 RI 10147 CNT 2
+Ref 6 RISETSIZE 3
+Ref 7 RI 1 CNT 1162
+Ref 7 RI 9 CNT 143
+Ref 7 RISETSIZE 2
+Ref 8 RI 8 CNT 1139
+Ref 8 RI 9 CNT 166
+Ref 8 RISETSIZE 2
+Ref 9 RI 4 CNT 1304
+Ref 9 RI 10143 CNT 1
+Ref 9 RISETSIZE 2
+Average RISETSIZE for each reference 2.3
+Assign lease 1 to ref 7 avg cache size 0.100146 miss ratio 0.910828
+Assign lease 1 to ref 0 avg cache size 0.198834 miss ratio 0.823651
+Assign lease 1 to ref 1 avg cache size 0.298979 miss ratio 0.736014
+Assign lease 1 to ref 4 avg cache size 0.399125 miss ratio 0.64853
+Assign lease 1 to ref 3 avg cache size 0.499271 miss ratio 0.562351
+Assign lease 1 to ref 6 avg cache size 0.599417 miss ratio 0.476556
+Assign lease 5 to ref 4 avg cache size 0.650065 miss ratio 0.463894
+Assign lease 4 to ref 9 avg cache size 1.05065 miss ratio 0.363825
+Assign lease 4 to ref 5 avg cache size 1.45123 miss ratio 0.274269
+Assign lease 9 to ref 5 avg cache size 1.50418 miss ratio 0.263679
+Assign lease 9 to ref 1 avg cache size 1.60425 miss ratio 0.25117
+Assign lease 9 to ref 7 avg cache size 1.69204 miss ratio 0.240196
+Assign lease 9 to ref 2 avg cache size 2.50487 miss ratio 0.140127
+Assign lease 9 to ref 8 avg cache size 3.31878 miss ratio 0.0399816
+Assign lease 10129 to ref 3 avg cache size 144.773 miss ratio 0.0260149
+Assign lease 10147 to ref 6 avg cache size 290.117 miss ratio 0.0116645
+Assign lease 10143 to ref 9 avg cache size 290.895 miss ratio 0.0115878
+Assign lease 10424336 to ref 0 avg cache size 120285 miss ratio 7.67401e-05
+Assign lease 10424336 to ref 2 avg cache size 121085 miss ratio 2.22045e-16

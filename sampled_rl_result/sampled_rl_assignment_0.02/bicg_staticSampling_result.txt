@@ -1,0 +1,39 @@
+Ref 0 RI 1 CNT 18
+Ref 0 RI 2810 CNT 1
+Ref 0 RI 4882 CNT 1
+Ref 0 RISETSIZE 3
+Ref 1 RI 5 CNT 20
+Ref 1 RISETSIZE 1
+Ref 2 RI 3 CNT 419
+Ref 2 RISETSIZE 1
+Ref 3 RI 8 CNT 418
+Ref 3 RI 9 CNT 1
+Ref 3 RISETSIZE 2
+Ref 4 RI 3 CNT 419
+Ref 4 RISETSIZE 1
+Ref 5 RI 5 CNT 367
+Ref 5 RI 8134 CNT 52
+Ref 5 RISETSIZE 2
+Ref 6 RI 3 CNT 419
+Ref 6 RISETSIZE 1
+Ref 7 RI 5 CNT 366
+Ref 7 RISETSIZE 1
+Ref 8 RI 8 CNT 367
+Ref 8 RI 8137 CNT 52
+Ref 8 RISETSIZE 2
+Ref 9 RI 5 CNT 419
+Ref 9 RISETSIZE 1
+Average RISETSIZE for each reference 1.5
+Assign lease 1 to ref 0 avg cache size 0.00598982 miss ratio 0.994609
+Assign lease 3 to ref 2 avg cache size 0.38245 miss ratio 0.869122
+Assign lease 3 to ref 4 avg cache size 0.75891 miss ratio 0.743636
+Assign lease 3 to ref 6 avg cache size 1.13537 miss ratio 0.618149
+Assign lease 5 to ref 1 avg cache size 1.16532 miss ratio 0.612159
+Assign lease 5 to ref 7 avg cache size 1.71339 miss ratio 0.502546
+Assign lease 5 to ref 9 avg cache size 2.34082 miss ratio 0.377059
+Assign lease 5 to ref 5 avg cache size 2.96825 miss ratio 0.267146
+Assign lease 9 to ref 3 avg cache size 3.97245 miss ratio 0.141659
+Assign lease 8 to ref 8 avg cache size 4.97634 miss ratio 0.031746
+Assign lease 4882 to ref 0 avg cache size 7.27942 miss ratio 0.0311471
+Assign lease 8134 to ref 5 avg cache size 133.877 miss ratio 0.0155735
+Assign lease 8137 to ref 8 avg cache size 260.474 miss ratio 0
