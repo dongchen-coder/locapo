@@ -21,18 +21,19 @@ def generate_dist(filename,mode="mr"):
 		for line in lines[2:]:
 			ws=line.split()
 			if(ws[2]=="RI"):
-				ri = eval(ws[3])
-				if(mode=="ri"):
-					if(eval(ws[1]) not in unique_refs):
-						unique_refs.append(eval(ws[1]))
-					else:
-						unique_ris+=1
-				if ri > (2 << 20) :
-					ri = get_log_bin(ri)
-				if(ri not in dist):
-					dist[ri]=0
-				dist[ri]+=eval(ws[5])
-				num_acc+=eval(ws[5])
+				if(ws[4]=="CNT"):
+					ri = eval(ws[3])
+					if(mode=="ri"):
+						if(eval(ws[1]) not in unique_refs):
+							unique_refs.append(eval(ws[1]))
+						else:
+							unique_ris+=1
+					if ri > (2 << 20) :
+						ri = get_log_bin(ri)
+					if(ri not in dist):
+						dist[ri]=0
+					dist[ri]+=eval(ws[5])
+					num_acc+=eval(ws[5])
 			if(ri>rimax): rimax=ri
 	for d in dist:
 		trace_len+=dist[d]
