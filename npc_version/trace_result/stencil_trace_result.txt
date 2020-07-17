@@ -1,0 +1,10 @@
+Starting to print results.
+/* Total number of data blocks is 78 */
+/* Total number of accesses is 1536 */
+/* Bin 0 Distance 0 */	Reuses: 416
+/* Bin 1 Distance 1 */	Reuses: 32
+/* Bin 2 Distance 2 to 3 */	Reuses: 658
+/* Bin 3 Distance 4 to 7 */	Reuses: 287	SLQ: 1.16364
+/* Bin 4 Distance 8 to 15 */	Reuses: 65	SLQ: 2
+/* End tree size is 78 */
+Success

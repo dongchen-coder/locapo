@@ -1,0 +1,2 @@
+#define ORG
+#define RD

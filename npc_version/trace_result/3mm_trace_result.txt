@@ -1,0 +1,29 @@
+Starting to print results.
+/* Total number of data blocks is 57344 */
+/* Total number of accesses is 201523200 */
+/* Bin 0 Distance 0 */	Reuses: 50503680
+/* Bin 1 Distance 1 */	Reuses: 0
+/* Bin 2 Distance 2 to 3 */	Reuses: 94371840
+/* Bin 3 Distance 4 to 7 */	Reuses: 0
+/* Bin 4 Distance 8 to 15 */	Reuses: 0
+/* Bin 5 Distance 16 to 31 */	Reuses: 0
+/* Bin 6 Distance 32 to 63 */	Reuses: 0
+/* Bin 7 Distance 64 to 127 */	Reuses: 0
+/* Bin 8 Distance 128 to 255 */	Reuses: 0
+/* Bin 9 Distance 256 to 511 */	Reuses: 50307072	SLQ: 2
+/* Bin 10 Distance 512 to 1023 */	Reuses: 0
+/* Bin 11 Distance 1024 to 2047 */	Reuses: 0
+/* Bin 12 Distance 2048 to 4095 */	Reuses: 0
+/* Bin 13 Distance 4096 to 8191 */	Reuses: 0
+/* Bin 14 Distance 8192 to 12287 */	Reuses: 6267407	SLQ: 0
+/* Bin 15 Distance 12288 to 16383 */	Reuses: 1877	SLQ: 0
+/* Bin 16 Distance 16384 to 20479 */	Reuses: 2868	SLQ: 0
+/* Bin 17 Distance 20480 to 24575 */	Reuses: 2869	SLQ: 0
+/* Bin 18 Distance 24576 to 28671 */	Reuses: 51	SLQ: 0
+/* Bin 19 Distance 28672 to 32767 */	Reuses: 0
+/* Bin 20 Distance 32768 to 36863 */	Reuses: 0
+/* Bin 21 Distance 36864 to 40959 */	Reuses: 1	SLQ: 0
+/* Bin 22 Distance 40960 to 45055 */	Reuses: 15	SLQ: 0
+/* Bin 23 Distance 45056 to 49151 */	Reuses: 304	SLQ: 0
+/* Bin 24 Distance 49152 to 53247 */	Reuses: 7872	SLQ: 0
+/* End tree size is 6107 */

@@ -1,0 +1,49 @@
+Starting to print results.
+/* Total number of data blocks is 132096 */
+/* Total number of accesses is 14683136 */
+/* Bin 0 Distance 0 */	Reuses: 3015296
+/* Bin 1 Distance 1 */	Reuses: 1920
+/* Bin 2 Distance 2 to 3 */	Reuses: 4849664
+/* Bin 3 Distance 4 to 7 */	Reuses: 4980480	SLQ: 0.00227753
+/* Bin 4 Distance 8 to 15 */	Reuses: 0
+/* Bin 5 Distance 16 to 31 */	Reuses: 0
+/* Bin 6 Distance 32 to 63 */	Reuses: 0
+/* Bin 7 Distance 64 to 127 */	Reuses: 0
+/* Bin 8 Distance 128 to 255 */	Reuses: 1	SLQ: 0
+/* Bin 9 Distance 256 to 511 */	Reuses: 392960	SLQ: 0
+/* Bin 10 Distance 512 to 1023 */	Reuses: 0
+/* Bin 11 Distance 1024 to 2047 */	Reuses: 1048459	SLQ: 0
+/* Bin 12 Distance 2048 to 4095 */	Reuses: 70	SLQ: 0
+/* Bin 13 Distance 4096 to 8191 */	Reuses: 332	SLQ: 0
+/* Bin 14 Distance 8192 to 12287 */	Reuses: 609	SLQ: 0
+/* Bin 15 Distance 12288 to 16383 */	Reuses: 885	SLQ: 0
+/* Bin 16 Distance 16384 to 20479 */	Reuses: 1184	SLQ: 0
+/* Bin 17 Distance 20480 to 24575 */	Reuses: 1482	SLQ: 0
+/* Bin 18 Distance 24576 to 28671 */	Reuses: 1796	SLQ: 0
+/* Bin 19 Distance 28672 to 32767 */	Reuses: 2118	SLQ: 0
+/* Bin 20 Distance 32768 to 36863 */	Reuses: 2459	SLQ: 0
+/* Bin 21 Distance 36864 to 40959 */	Reuses: 2812	SLQ: 0
+/* Bin 22 Distance 40960 to 45055 */	Reuses: 3188	SLQ: 0
+/* Bin 23 Distance 45056 to 49151 */	Reuses: 3569	SLQ: 0
+/* Bin 24 Distance 49152 to 53247 */	Reuses: 3984	SLQ: 0
+/* Bin 25 Distance 53248 to 57343 */	Reuses: 4401	SLQ: 0
+/* Bin 26 Distance 57344 to 61439 */	Reuses: 4857	SLQ: 0
+/* Bin 27 Distance 61440 to 65535 */	Reuses: 5337	SLQ: 0
+/* Bin 28 Distance 65536 to 69631 */	Reuses: 5843	SLQ: 0
+/* Bin 29 Distance 69632 to 73727 */	Reuses: 6388	SLQ: 0
+/* Bin 30 Distance 73728 to 77823 */	Reuses: 6951	SLQ: 0
+/* Bin 31 Distance 77824 to 81919 */	Reuses: 7599	SLQ: 0
+/* Bin 32 Distance 81920 to 86015 */	Reuses: 8257	SLQ: 0
+/* Bin 33 Distance 86016 to 90111 */	Reuses: 8994	SLQ: 0
+/* Bin 34 Distance 90112 to 94207 */	Reuses: 9808	SLQ: 0
+/* Bin 35 Distance 94208 to 98303 */	Reuses: 10724	SLQ: 0
+/* Bin 36 Distance 98304 to 102399 */	Reuses: 11700	SLQ: 0
+/* Bin 37 Distance 102400 to 106495 */	Reuses: 12857	SLQ: 0
+/* Bin 38 Distance 106496 to 110591 */	Reuses: 14218	SLQ: 0
+/* Bin 39 Distance 110592 to 114687 */	Reuses: 15803	SLQ: 0
+/* Bin 40 Distance 114688 to 118783 */	Reuses: 17774	SLQ: 0
+/* Bin 41 Distance 118784 to 122879 */	Reuses: 20432	SLQ: 0
+/* Bin 42 Distance 122880 to 126975 */	Reuses: 24384	SLQ: 0
+/* Bin 43 Distance 126976 to 131071 */	Reuses: 32920	SLQ: 0
+/* Bin 44 Distance 131072 to 135167 */	Reuses: 8525	SLQ: 0
+/* End tree size is 7176 */

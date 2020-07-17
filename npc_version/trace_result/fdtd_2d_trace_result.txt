@@ -1,0 +1,113 @@
+Starting to print results.
+/* Total number of data blocks is 393218 */
+/* Total number of accesses is 146616380 */
+/* Bin 0 Distance 0 */	Reuses: 45807404
+/* Bin 1 Distance 1 */	Reuses: 17038028
+/* Bin 2 Distance 2 to 3 */	Reuses: 65434870
+/* Bin 3 Distance 4 to 7 */	Reuses: 6547200	SLQ: 0
+/* Bin 4 Distance 8 to 15 */	Reuses: 0
+/* Bin 5 Distance 16 to 31 */	Reuses: 0
+/* Bin 6 Distance 32 to 63 */	Reuses: 0
+/* Bin 7 Distance 64 to 127 */	Reuses: 0
+/* Bin 8 Distance 128 to 255 */	Reuses: 0
+/* Bin 9 Distance 256 to 511 */	Reuses: 1308170	SLQ: 2
+/* Bin 10 Distance 512 to 1023 */	Reuses: 1308170	SLQ: 0
+/* Bin 11 Distance 1024 to 2047 */	Reuses: 0
+/* Bin 12 Distance 2048 to 4095 */	Reuses: 0
+/* Bin 13 Distance 4096 to 8191 */	Reuses: 0
+/* Bin 14 Distance 8192 to 12287 */	Reuses: 0
+/* Bin 15 Distance 12288 to 16383 */	Reuses: 0
+/* Bin 16 Distance 16384 to 20479 */	Reuses: 0
+/* Bin 17 Distance 20480 to 24575 */	Reuses: 0
+/* Bin 18 Distance 24576 to 28671 */	Reuses: 0
+/* Bin 19 Distance 28672 to 32767 */	Reuses: 0
+/* Bin 20 Distance 32768 to 36863 */	Reuses: 0
+/* Bin 21 Distance 36864 to 40959 */	Reuses: 0
+/* Bin 22 Distance 40960 to 45055 */	Reuses: 0
+/* Bin 23 Distance 45056 to 49151 */	Reuses: 0
+/* Bin 24 Distance 49152 to 53247 */	Reuses: 0
+/* Bin 25 Distance 53248 to 57343 */	Reuses: 0
+/* Bin 26 Distance 57344 to 61439 */	Reuses: 0
+/* Bin 27 Distance 61440 to 65535 */	Reuses: 0
+/* Bin 28 Distance 65536 to 69631 */	Reuses: 0
+/* Bin 29 Distance 69632 to 73727 */	Reuses: 0
+/* Bin 30 Distance 73728 to 77823 */	Reuses: 0
+/* Bin 31 Distance 77824 to 81919 */	Reuses: 0
+/* Bin 32 Distance 81920 to 86015 */	Reuses: 0
+/* Bin 33 Distance 86016 to 90111 */	Reuses: 0
+/* Bin 34 Distance 90112 to 94207 */	Reuses: 0
+/* Bin 35 Distance 94208 to 98303 */	Reuses: 0
+/* Bin 36 Distance 98304 to 102399 */	Reuses: 0
+/* Bin 37 Distance 102400 to 106495 */	Reuses: 0
+/* Bin 38 Distance 106496 to 110591 */	Reuses: 0
+/* Bin 39 Distance 110592 to 114687 */	Reuses: 0
+/* Bin 40 Distance 114688 to 118783 */	Reuses: 0
+/* Bin 41 Distance 118784 to 122879 */	Reuses: 0
+/* Bin 42 Distance 122880 to 126975 */	Reuses: 0
+/* Bin 43 Distance 126976 to 131071 */	Reuses: 0
+/* Bin 44 Distance 131072 to 135167 */	Reuses: 0
+/* Bin 45 Distance 135168 to 139263 */	Reuses: 0
+/* Bin 46 Distance 139264 to 143359 */	Reuses: 0
+/* Bin 47 Distance 143360 to 147455 */	Reuses: 0
+/* Bin 48 Distance 147456 to 151551 */	Reuses: 0
+/* Bin 49 Distance 151552 to 155647 */	Reuses: 0
+/* Bin 50 Distance 155648 to 159743 */	Reuses: 0
+/* Bin 51 Distance 159744 to 163839 */	Reuses: 0
+/* Bin 52 Distance 163840 to 167935 */	Reuses: 0
+/* Bin 53 Distance 167936 to 172031 */	Reuses: 0
+/* Bin 54 Distance 172032 to 176127 */	Reuses: 0
+/* Bin 55 Distance 176128 to 180223 */	Reuses: 0
+/* Bin 56 Distance 180224 to 184319 */	Reuses: 0
+/* Bin 57 Distance 184320 to 188415 */	Reuses: 0
+/* Bin 58 Distance 188416 to 192511 */	Reuses: 0
+/* Bin 59 Distance 192512 to 196607 */	Reuses: 0
+/* Bin 60 Distance 196608 to 200703 */	Reuses: 0
+/* Bin 61 Distance 200704 to 204799 */	Reuses: 0
+/* Bin 62 Distance 204800 to 208895 */	Reuses: 0
+/* Bin 63 Distance 208896 to 212991 */	Reuses: 0
+/* Bin 64 Distance 212992 to 217087 */	Reuses: 0
+/* Bin 65 Distance 217088 to 221183 */	Reuses: 0
+/* Bin 66 Distance 221184 to 225279 */	Reuses: 0
+/* Bin 67 Distance 225280 to 229375 */	Reuses: 0
+/* Bin 68 Distance 229376 to 233471 */	Reuses: 0
+/* Bin 69 Distance 233472 to 237567 */	Reuses: 0
+/* Bin 70 Distance 237568 to 241663 */	Reuses: 0
+/* Bin 71 Distance 241664 to 245759 */	Reuses: 0
+/* Bin 72 Distance 245760 to 249855 */	Reuses: 0
+/* Bin 73 Distance 249856 to 253951 */	Reuses: 0
+/* Bin 74 Distance 253952 to 258047 */	Reuses: 0
+/* Bin 75 Distance 258048 to 262143 */	Reuses: 1313670	SLQ: 0
+/* Bin 76 Distance 262144 to 266239 */	Reuses: 154751	SLQ: 0
+/* Bin 77 Distance 266240 to 270335 */	Reuses: 155717	SLQ: 0
+/* Bin 78 Distance 270336 to 274431 */	Reuses: 155895	SLQ: 0
+/* Bin 79 Distance 274432 to 278527 */	Reuses: 155105	SLQ: 0
+/* Bin 80 Distance 278528 to 282623 */	Reuses: 156106	SLQ: 0
+/* Bin 81 Distance 282624 to 286719 */	Reuses: 155315	SLQ: 0
+/* Bin 82 Distance 286720 to 290815 */	Reuses: 156345	SLQ: 0
+/* Bin 83 Distance 290816 to 294911 */	Reuses: 155051	SLQ: 0
+/* Bin 84 Distance 294912 to 299007 */	Reuses: 155691	SLQ: 0
+/* Bin 85 Distance 299008 to 303103 */	Reuses: 156302	SLQ: 0
+/* Bin 86 Distance 303104 to 307199 */	Reuses: 155195	SLQ: 0
+/* Bin 87 Distance 307200 to 311295 */	Reuses: 156238	SLQ: 0
+/* Bin 88 Distance 311296 to 315391 */	Reuses: 155434	SLQ: 0
+/* Bin 89 Distance 315392 to 319487 */	Reuses: 156017	SLQ: 0
+/* Bin 90 Distance 319488 to 323583 */	Reuses: 155629	SLQ: 0
+/* Bin 91 Distance 323584 to 327679 */	Reuses: 155541	SLQ: 0
+/* Bin 92 Distance 327680 to 331775 */	Reuses: 155406	SLQ: 0
+/* Bin 93 Distance 331776 to 335871 */	Reuses: 155596	SLQ: 0
+/* Bin 94 Distance 335872 to 339967 */	Reuses: 155880	SLQ: 0
+/* Bin 95 Distance 339968 to 344063 */	Reuses: 155652	SLQ: 0
+/* Bin 96 Distance 344064 to 348159 */	Reuses: 156260	SLQ: 0
+/* Bin 97 Distance 348160 to 352255 */	Reuses: 155119	SLQ: 0
+/* Bin 98 Distance 352256 to 356351 */	Reuses: 155903	SLQ: 0
+/* Bin 99 Distance 356352 to 360447 */	Reuses: 155566	SLQ: 0
+/* Bin 100 Distance 360448 to 364543 */	Reuses: 155390	SLQ: 0
+/* Bin 101 Distance 364544 to 368639 */	Reuses: 155745	SLQ: 0
+/* Bin 102 Distance 368640 to 372735 */	Reuses: 155713	SLQ: 0
+/* Bin 103 Distance 372736 to 376831 */	Reuses: 156222	SLQ: 0
+/* Bin 104 Distance 376832 to 380927 */	Reuses: 154957	SLQ: 0
+/* Bin 105 Distance 380928 to 385023 */	Reuses: 156000	SLQ: 0
+/* Bin 106 Distance 385024 to 389119 */	Reuses: 155404	SLQ: 0
+/* Bin 107 Distance 389120 to 393215 */	Reuses: 2640498	SLQ: 0
+/* Bin 108 Distance 393216 to 397311 */	Reuses: 7	SLQ: 0
+/* End tree size is 8636 */
