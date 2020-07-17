@@ -11,4 +11,4 @@ cache_size 64 max_mr 0.2785434966793202 min_mr 0.031619842430834044
 cache_size 128 max_mr 0.031619842430834044 min_mr 0.03137844079120089
 cache_size 256 max_mr 0.03137844079120089 min_mr 0.03089563751193447
 cache_size 512 max_mr 0.03089563751193447 min_mr 0.0
-cache_size 767 max_mr 0.0 min_mr 0.0
+cache_size 1023 max_mr 0.0 min_mr 0.0

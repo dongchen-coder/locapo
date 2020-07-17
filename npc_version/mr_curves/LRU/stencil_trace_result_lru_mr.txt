@@ -1,0 +1,8 @@
+number of accesses: 1536
+num_reuses: 1458
+cache_size 0 max_mr 0.7146776406035665 min_mr 0.7146776406035665
+cache_size 1 max_mr 0.7146776406035665 min_mr 0.6927297668038408
+cache_size 2 max_mr 0.6927297668038408 min_mr 0.24142661179698222
+cache_size 4 max_mr 0.24142661179698222 min_mr 0.04458161865569277
+cache_size 8 max_mr 0.04458161865569277 min_mr 0.0
+cache_size 15 max_mr 0.0 min_mr 0.0
