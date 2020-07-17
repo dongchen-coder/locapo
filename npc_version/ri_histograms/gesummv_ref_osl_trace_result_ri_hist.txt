@@ -1,0 +1,10 @@
+num_unique_refs: 13 num_unique_ris_raw: 3 num_unique_ri_bins: 8
+printing distribution:
+ri: 4 freq: 0.24192050373868557
+ri: 7 freq: 0.25778827233372686
+ri: 8 freq: 0.2256749311294766
+ri: 1 freq: 0.2580401416765053
+ri: 5 freq: 0.00012593467138921684
+ri: 8137 freq: 0.016103896103896103
+ri: 2 freq: 0.0002361275088547816
+ri: 3 freq: 0.00011019283746556474
