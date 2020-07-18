@@ -32,14 +32,15 @@ TRACE_REF_RESULT_DIR=$(TEST_DIR)/ref_trace_result
 
 TRACE_REF_OSL_SRC_DIR=$(TEST_DIR)/ref_trace_osl_src
 TRACE_REF_OSL_RESULT_DIR=$(TEST_DIR)/ref_trace_osl_result
+TIME_DIR=$(TEST_DIR)/time_osl_result
 
 OPT= $(LLVM_BIN_DIR)/opt
 LLC= $(LLVM_BIN_DIR)/llc
 CC= $(CLANG_BIN_DIR)/clang
 DIS= $(LLVM_BIN_DIR)/llvm-dis
 
-#all_bench = stencil
-all_bench = 2mm 3mm adi atax bicg cholesky correlation covariance deriche doitgen durbin fdtd_2d floyd_warshall gemm gemver gesummv gramschmidt heat_3d jacobi_1d jacobi_2d lu ludcmp mvt nussinov seidel_2d symm syr2d syrk trisolv trmm
+all_bench = doitgen
+#all_bench = 2mm 3mm adi atax bicg cholesky correlation covariance deriche doitgen durbin fdtd_2d floyd_warshall gemm gemver gesummv gramschmidt heat_3d jacobi_1d jacobi_2d lu ludcmp mvt nussinov seidel_2d symm syr2d syrk trisolv trmm
 #all_bench = syrk
 #all_bench = 2mm 3mm adi atax bicg cholesky correlation covariance deriche doitgen
 
@@ -138,6 +139,9 @@ trace_ref_run:
 trace_ref_osl_run:
 	$(foreach name, $(all_bench), g++ -std=c++11 $(TRACE_REF_OSL_SRC_DIR)/$(name)_ref_arr.cpp -O3 -o $(BIN_DIR)/$(name)_ref_osl_trace ;)
 	$(foreach name, $(all_bench), $(BIN_DIR)/$(name)_ref_osl_trace > $(TRACE_REF_OSL_RESULT_DIR)/$(name)_ref_osl_trace_result.txt &)
+
+time_ref_osl_run:
+	$(foreach name, $(all_bench), { time $(BIN_DIR)/$(name)_ref_osl_trace ;} 2> $(TIME_DIR)/$(name).txt ;)
 
 clean:
 	rm $(BC_DIR)/*.bc
