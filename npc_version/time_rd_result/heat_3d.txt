@@ -1,0 +1,5 @@
+time.sh: line 1: 11335 Segmentation fault      ./bin/${name}_trace
+
+real	1m55.785s
+user	1m51.298s
+sys	0m3.510s
