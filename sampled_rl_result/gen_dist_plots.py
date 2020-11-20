@@ -35,9 +35,64 @@ def calDist(path, name, traced):
 	content.close()
 	return ridist
 
+def plotDist(ridist, ridist_sampled_02, ridist_sampled_05, ridist_sampled_10, ridist_sampled_20):
+	for ref in ridist:
+		ris = []
+		dists = []
+		for key in sorted(ridist[ref].keys()):
+			ris.append(key)
+			dists.append(ridist[ref][key])
+		plt.plot(ris, dists, color = 'y', label = 'Traced RI', alpha=0.7, linewidth = 2)
+		plt.plot(ris, dists, 'yo', alpha=0.7 , linewidth = 2)
+
+		ris_02 = []
+		dists_02 = []
+		if (ref in ridist_sampled_02.keys()):
+			for key in sorted(ridist_sampled_02[ref].keys()):
+				ris_02.append(key)
+				dists_02.append(ridist_sampled_02[ref][key])
+		plt.plot(ris_02, dists_02, color = 'b', label = 'Sampled 2%', alpha=0.7, linewidth = 1.5)
+		plt.plot(ris_02, dists_02, 'bo', alpha=0.7, linewidth = 1.5)
+	
+		ris_05 = []
+		dists_05 = []
+		if (ref in ridist_sampled_05.keys()):
+			for key in sorted(ridist_sampled_05[ref].keys()):
+				ris_05.append(key)
+				dists_05.append(ridist_sampled_05[ref][key])
+		plt.plot(ris_05, dists_05, color = 'c', label = 'Sampled 5%', alpha=0.7, linewidth = 1)
+		plt.plot(ris_05, dists_05, 'co', alpha=0.7, linewidth = 1)
+	
+		ris_10 = []
+		dists_10 = []
+		if (ref in ridist_sampled_10.keys()):
+			for key in sorted(ridist_sampled_10[ref].keys()):
+				ris_10.append(key)
+				dists_10.append(ridist_sampled_10[ref][key])
+		plt.plot(ris_10, dists_10, color = 'r', label = 'Sampled 10%', alpha=0.7, linewidth = 0.5)
+		plt.plot(ris_10, dists_10, 'ro', alpha=0.7, linewidth = 0.5)
+
+		ris_20 = []
+		dists_20 = []
+		if (ref in ridist_sampled_20.keys()):
+			for key in sorted(ridist_sampled_20[ref].keys()):
+				ris_20.append(key)
+				dists_20.append(ridist_sampled_20[ref][key])
+		plt.plot(ris_20, dists_20, color = 'g', label = 'Sampled 20%', alpha=0.7, linewidth = 0.25)
+		plt.plot(ris_20, dists_20, 'go', alpha=0.7, linewidth = 0.25)
+
+		plt.title(name + "_Ref_" + str(ref) + ":  #RI_" + str(len(dists)) + "---#20%_" + str(len(dists_20)) + "---#10%_" + str(len(dists_10)) + "---#5%_" + str(len(dists_05)) + "---#2%_" + str(len(dists_02)))
+		plt.legend()
+		#plt.show()
+		#break	  
+		plt.savefig(full_traced_visualized_path + name + "_ref_" + str(ref) + '.pdf')
+		plt.clf()
+	return
+
 sampled_02_path = './sampled_rl_assignment_0.02/'
 sampled_05_path = './sampled_rl_assignment_0.05/'
 sampled_10_path = './sampled_rl_assignment_0.10/'
+sampled_20_path = './sampled_rl_assignment_0.20/'
 
 full_traced_path = './full_ri_dis_for_sampled_rl/'
 full_traced_visualized_path = './ri_dis_for_sampled_rl_visualized/'
@@ -52,72 +107,11 @@ for name in names:
 	ridist_sampled_02 = calDist(sampled_02_path, name, False)
 	ridist_sampled_05 = calDist(sampled_05_path, name, False)
 	ridist_sampled_10 = calDist(sampled_10_path, name, False)
+	ridist_sampled_20 = calDist(sampled_20_path, name, False)	
 
-	for ref in ridist:
-		'''
-		plt.plot(range(len(ridist[ref])), list(ridist[ref].values()), color = 'y', label = 'Traced RI')
-		plt.plot(range(len(ridist[ref])), list(ridist[ref].values()), 'yo')
-		if (ref in ridist_sampled_02.keys()):
-			plt.plot(range(len(ridist_sampled_02[ref])), list(ridist_sampled_02[ref].values()), color = 'b', label = 'Sampled 2%')
-			plt.plot(range(len(ridist_sampled_02[ref])), list(ridist_sampled_02[ref].values()), 'bo')
-		else:
-			plt.plot([],[],color = 'b')
-			plt.plot([],[],color = 'bo')
-		if (ref in ridist_sampled_05.keys()):
-			plt.plot(range(len(ridist_sampled_05[ref])), list(ridist_sampled_05[ref].values()), color = 'c', label = 'Sampled 5%')
-			plt.plot(range(len(ridist_sampled_05[ref])), list(ridist_sampled_05[ref].values()), 'co')
-		else:
-			plt.plot([],[],color = 'c')
-			plt.plot([],[],color = 'co')
-		if (ref in ridist_sampled_10.keys()):
-			plt.plot(range(len(ridist_sampled_10[ref])), list(ridist_sampled_10[ref].values()), color = 'r', label = 'Sampled 10%')
-			plt.plot(range(len(ridist_sampled_10[ref])), list(ridist_sampled_10[ref].values()), 'ro')
-		else:
-			plt.plot([],[],color = 'c')
-			plt.plot([],[],color = 'co')
-		'''
-		ris = []
-		dists = []
-		for key in sorted(ridist[ref].keys()):
-			ris.append(key)
-			dists.append(ridist[ref][key])
-		plt.plot(ris, dists, color = 'y', label = 'Traced RI', alpha=0.7, linewidth = 2)
-		plt.plot(ris, dists, 'yo', alpha=0.7 , linewidth = 2)
-		
-		ris_02 = []
-		dists_02 = []
-		if (ref in ridist_sampled_02.keys()):
-			for key in sorted(ridist_sampled_02[ref].keys()):
-				ris_02.append(key)
-				dists_02.append(ridist_sampled_02[ref][key])
-		plt.plot(ris_02, dists_02, color = 'b', label = 'Sampled 2%', alpha=0.7, linewidth = 1.5)
-		plt.plot(ris_02, dists_02, 'bo', alpha=0.7, linewidth = 2)
-				
-		ris_05 = []
-		dists_05 = []
-		if (ref in ridist_sampled_05.keys()):
-			for key in sorted(ridist_sampled_05[ref].keys()):
-				ris_05.append(key)
-				dists_05.append(ridist_sampled_05[ref][key])
-		plt.plot(ris_05, dists_05, color = 'c', label = 'Sampled 5%', alpha=0.7, linewidth = 1)
-		plt.plot(ris_05, dists_05, 'co', alpha=0.7, linewidth = 2)
-		
-		ris_10 = []
-		dists_10 = []
-		if (ref in ridist_sampled_10.keys()):
-			for key in sorted(ridist_sampled_10[ref].keys()):
-				ris_10.append(key)
-				dists_10.append(ridist_sampled_10[ref][key])
-		plt.plot(ris_10, dists_10, color = 'r', label = 'Sampled 10%', alpha=0.7, linewidth = 0.5)
-		plt.plot(ris_10, dists_10, 'ro', alpha=0.7, linewidth = 2)
+	plotDist(ridist, ridist_sampled_02, ridist_sampled_05, ridist_sampled_10, ridist_sampled_20)
 
-
-		plt.title(name + "_Ref_" + str(ref) + ":  #RI_" + str(len(dists)) + "---#10%_" + str(len(dists_10)) + "---#5%_" + str(len(dists_05)) + "---#2%_" + str(len(dists_02)))
-		plt.legend()
-		#plt.show()
-		#break		
-		plt.savefig(full_traced_visualized_path + name + "_ref_" + str(ref) + '.pdf')
-		plt.clf()
-	#break
-	
+	#for ref in ridist.keys():
+	#	for ri in ridist[ref].keys():
+			
 

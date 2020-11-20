@@ -1,0 +1,62 @@
+Ref 0 RI 1 CNT 183
+Ref 0 RI 5138 CNT 1
+Ref 0 RI 5186 CNT 1
+Ref 0 RI 5354 CNT 1
+Ref 0 RI 5474 CNT 1
+Ref 0 RI 5570 CNT 1
+Ref 0 RI 5642 CNT 1
+Ref 0 RI 5738 CNT 1
+Ref 0 RI 5834 CNT 1
+Ref 0 RI 6074 CNT 1
+Ref 0 RI 6098 CNT 1
+Ref 0 RI 6146 CNT 1
+Ref 0 RI 6242 CNT 1
+Ref 0 RI 6386 CNT 1
+Ref 0 RI 6554 CNT 1
+Ref 0 RI 6746 CNT 1
+Ref 0 RI 6818 CNT 1
+Ref 0 RI 7034 CNT 1
+Ref 0 RI 7250 CNT 1
+Ref 0 RI 7466 CNT 1
+Ref 0 RI 7658 CNT 1
+Ref 0 RI 7922 CNT 1
+Ref 0 RISETSIZE 22
+Ref 1 RI 1 CNT 204
+Ref 1 RISETSIZE 1
+Ref 2 RI 3 CNT 41943
+Ref 2 RISETSIZE 1
+Ref 3 RI 4 CNT 36711
+Ref 3 RI 4068 CNT 5232
+Ref 3 RISETSIZE 2
+Ref 4 RI 4 CNT 36659
+Ref 4 RI 8165 CNT 5282
+Ref 4 RISETSIZE 2
+Ref 5 RI 1 CNT 41916
+Ref 5 RI 3 CNT 27
+Ref 5 RISETSIZE 2
+Ref 6 RI 3 CNT 41943
+Ref 6 RISETSIZE 1
+Ref 7 RI 4 CNT 36750
+Ref 7 RISETSIZE 1
+Ref 8 RI 2 CNT 45
+Ref 8 RI 4 CNT 41894
+Ref 8 RISETSIZE 2
+Ref 9 RI 1 CNT 36694
+Ref 9 RI 8162 CNT 5243
+Ref 9 RISETSIZE 2
+Average RISETSIZE for each reference 3.6
+Assign lease 1 to ref 1 avg cache size 0.000616786 miss ratio 0.999383
+Assign lease 1 to ref 5 avg cache size 0.12743 miss ratio 0.872652
+Assign lease 1 to ref 0 avg cache size 0.128047 miss ratio 0.872099
+Assign lease 1 to ref 9 avg cache size 0.254841 miss ratio 0.761156
+Assign lease 3 to ref 5 avg cache size 0.255005 miss ratio 0.761074
+Assign lease 3 to ref 2 avg cache size 0.635443 miss ratio 0.634261
+Assign lease 3 to ref 6 avg cache size 1.01588 miss ratio 0.507448
+Assign lease 4 to ref 8 avg cache size 1.52281 miss ratio 0.380647
+Assign lease 4 to ref 7 avg cache size 1.96726 miss ratio 0.269535
+Assign lease 4 to ref 3 avg cache size 2.47451 miss ratio 0.158541
+Assign lease 4 to ref 4 avg cache size 2.98174 miss ratio 0.0477041
+Assign lease 4068 to ref 3 avg cache size 67.2691 miss ratio 0.0318854
+Assign lease 7922 to ref 0 avg cache size 67.6691 miss ratio 0.0318219
+Assign lease 8165 to ref 4 avg cache size 198 miss ratio 0.015852
+Assign lease 8162 to ref 9 avg cache size 327.368 miss ratio 0

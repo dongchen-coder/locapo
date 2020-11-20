@@ -1,8 +1,8 @@
 import os
 
 ri_path = './full_ri_dis_for_sampled_rl/'
-sampled_rl_assignment_path = './sampled_rl_assignment_0.10/'
-sampled_rl_mrc_path = './sampled_rl_mrc_0.10/'
+#sampled_rl_assignment_path = './sampled_rl_assignment_0.10/'
+#sampled_rl_mrc_path = './sampled_rl_mrc_0.10/'
 
 def readAccessCnt(src_path, name):
 	content = open(src_path + name + '_ref_arr_trace_result.txt', 'r')
@@ -29,13 +29,14 @@ def readAccessCnt(src_path, name):
 				print "Error printing access cnt"
 			else:
 				refAccessCnt[ref] = accessCnt
+				total_accesses += accessCnt
 
 	content.close()
 	return ri, refAccessCnt, total_accesses
 
 
-def calRL(src_path, result_path, name, ri, refAccessCnt, total_accesses):
-	content = open(src_path + name + '_staticSampling_result.txt', 'r')
+def calRL(src_path, result_path, name, file_suffix, ri, refAccessCnt, total_accesses):
+	content = open(src_path + name + file_suffix, 'r')
 	result_file = open(result_path + name + '_mrc.txt', 'w')
 
 	Lease = {}
@@ -91,18 +92,19 @@ def calRL(src_path, result_path, name, ri, refAccessCnt, total_accesses):
 
 
 
-names = ['2mm', 'deriche', 'gramschmidt', 'seidel_2d', '3mm', 'doitgen', 'heat_3d', 'symm', 'adi', 'durbin', 'jacobi_1d', 'syr2d', 'atax', 'fdtd_2d', 'jacobi_2d', 'syrk', 'bicg', 'floyd_warshall', 'lu', 'trisolv', 'cholesky', 'gemm', 'ludcmp', 'trmm', 'correlation', 'gemver', 'mvt', 'covariance', 'gesummv', 'nussinov']
+#names = ['2mm', 'deriche', 'gramschmidt', 'seidel_2d', '3mm', 'doitgen', 'heat_3d', 'symm', 'adi', 'durbin', 'jacobi_1d', 'syr2d', 'atax', 'fdtd_2d', 'jacobi_2d', 'syrk', 'bicg', 'floyd_warshall', 'lu', 'trisolv', 'cholesky', 'gemm', 'ludcmp', 'trmm', 'correlation', 'gemver', 'mvt', 'covariance', 'gesummv', 'nussinov']
+
+names = ['syrk', 'symm', 'gramschmidt']
 
 for name in names:
-	for rate in ['0.10', '0.05', '0.02']:
+	ri, refAccessCnt, total_accesses = readAccessCnt(ri_path, name)
+	#for rate in ['0.20', '0.10', '0.05', '0.02']:
+	for rate in ['0.05']:
 		print "Process ", name
-	
 		sampled_rl_assignment_path = './sampled_rl_assignment_' + rate +'/'
 		sampled_rl_mrc_path = './sampled_rl_mrc_' + rate + '/'	
 
-		ri, refAccessCnt, total_accesses = readAccessCnt(ri_path, name)
-		calRL(sampled_rl_assignment_path, sampled_rl_mrc_path, name, ri, refAccessCnt, total_accesses)
-'''
-ri, refAccessCnt, total_accesses = readAccessCnt(ri_path, '2mm')
-calRL('./', './', '2mm', ri, refAccessCnt, total_accesses)
-'''
+		calRL(sampled_rl_assignment_path, sampled_rl_mrc_path, name, '_staticSampling_result.txt', ri, refAccessCnt, total_accesses)
+
+	calRL('../ref_trace_osl_result/', './trace_rl_mrc/', name, '_ref_osl_trace_result.txt', ri, refAccessCnt, total_accesses)
+
